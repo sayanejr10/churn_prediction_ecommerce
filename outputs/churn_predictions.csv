@@ -1,0 +1,1201 @@
+Customer_ID,churn_probability,churn_predicted,churn_actual,risk_level
+c6831260-0b3e-450f-9bf9-8f999e3374bf,100.0,1,1,Très élevé 🔴
+cd9990b8-787e-4075-aa2b-d124ceaeb40e,100.0,1,1,Très élevé 🔴
+c2c1d9df-c287-458b-bbe1-f6a51b6784a4,100.0,1,1,Très élevé 🔴
+3e331240-6d56-4e94-815c-c1ec14cc94e3,100.0,1,1,Très élevé 🔴
+20b88dee-cb38-4aab-897f-50156e688503,100.0,1,1,Très élevé 🔴
+be39bcd2-f3aa-4843-8f05-f61502ddcbf1,100.0,1,1,Très élevé 🔴
+cb0d4a65-ac25-446c-83f4-0557389cd2ef,100.0,1,1,Très élevé 🔴
+af6c5631-b5d3-48f2-b144-ae412a56c1e8,100.0,1,1,Très élevé 🔴
+823b2257-10c2-48fe-b615-dd68ac12524a,100.0,1,1,Très élevé 🔴
+b5ef7018-460f-4aa5-9dcd-98bb710fd5e0,100.0,1,1,Très élevé 🔴
+631b81a7-7d00-44d2-bd0e-13583772871a,100.0,1,1,Très élevé 🔴
+8c5aecbb-4779-4972-93cf-658af78d30dc,100.0,1,1,Très élevé 🔴
+54cd5fbe-9ca0-4f8e-87cb-ee4102cea974,100.0,1,1,Très élevé 🔴
+a49ed04a-0b43-44a5-8f1b-11db61b11f2a,100.0,1,1,Très élevé 🔴
+58fca557-8ac8-45f1-8b5c-4c22d847a9e1,100.0,1,1,Très élevé 🔴
+70fcd7a4-1d03-41cc-a95e-362c688deb90,100.0,1,1,Très élevé 🔴
+3fa7b442-ffc7-4d8f-84f7-70e5ff4bb58d,100.0,1,1,Très élevé 🔴
+93cebc61-83b6-42ef-ba39-e81754eb3d99,100.0,1,1,Très élevé 🔴
+9662cb24-e54a-4a3a-b256-157e88c633fc,100.0,1,1,Très élevé 🔴
+703f3f10-f4e1-4f03-a4f0-9f93dfb97848,100.0,1,1,Très élevé 🔴
+77a59148-2f8b-4657-b5ef-3a05783d4387,100.0,1,1,Très élevé 🔴
+048b7d63-5339-4812-97b1-62bc41660322,100.0,1,1,Très élevé 🔴
+c4357eb5-5e69-4a8e-ba08-ecda32501196,100.0,1,1,Très élevé 🔴
+0b668ed4-9170-4145-8bd9-0f1ada66e531,100.0,1,1,Très élevé 🔴
+9816802d-93f8-4cb2-b73e-8a27be108040,100.0,1,1,Très élevé 🔴
+92ca821c-0655-4cf9-87b7-8a30783b43a8,100.0,1,1,Très élevé 🔴
+4078e609-1624-4b62-9cac-0748af2d6d66,100.0,1,1,Très élevé 🔴
+d83f4c31-37cb-4aa8-a1f1-86fd1c28a873,100.0,1,1,Très élevé 🔴
+3dad8e0b-2eb1-46fb-926d-19b94895c965,100.0,1,1,Très élevé 🔴
+7efa6572-5553-4705-b162-1983f9fa4ee3,100.0,1,1,Très élevé 🔴
+33766958-9400-418c-b73a-413ddbc00ef7,100.0,1,1,Très élevé 🔴
+d0fb099f-2017-41c6-9539-47b1cd448921,100.0,1,1,Très élevé 🔴
+0cbad17b-1364-4d80-8028-777045e0354b,100.0,1,1,Très élevé 🔴
+bcf1b25d-47f9-419f-8168-bc9e5432d402,100.0,1,1,Très élevé 🔴
+397955e2-3e93-41f7-b8c0-bda7eca484b9,100.0,1,1,Très élevé 🔴
+1eefc8ab-1cb9-4c13-8bbb-af80933f3fb6,100.0,1,1,Très élevé 🔴
+014ea24f-dfba-4efd-97a4-0d3d1397ec64,100.0,1,1,Très élevé 🔴
+7feb9516-a7a7-4156-a303-ca92ed09f4ea,100.0,1,1,Très élevé 🔴
+12affbb9-2c60-42be-b74c-479977b25678,100.0,1,1,Très élevé 🔴
+b4a6efc3-de81-4240-8a99-7e343de4a753,100.0,1,1,Très élevé 🔴
+d109634c-4599-4af4-ace8-6bdfd18c78b3,100.0,1,1,Très élevé 🔴
+a0052bca-1044-4139-a421-d6d00e3db1dd,100.0,1,1,Très élevé 🔴
+00febf4b-086b-4498-862d-0bc557048adb,100.0,1,1,Très élevé 🔴
+45361d48-4110-4646-966e-6f8739c4f424,99.0,1,1,Très élevé 🔴
+3115377a-7227-4f69-bffc-ce515a565090,99.0,1,1,Très élevé 🔴
+65cdbec6-047a-4380-899c-c08a64075f23,99.0,1,1,Très élevé 🔴
+c1db5e7f-9644-4da5-bfaf-ee9a41f0babb,99.0,1,1,Très élevé 🔴
+052651bb-9ed4-47d7-b2f1-deb2597f83fb,99.0,1,1,Très élevé 🔴
+0df5d2ad-6e77-462f-b08c-551dba936d83,99.0,1,1,Très élevé 🔴
+e9313ac1-bee0-4c65-8696-986b9dc01f8b,99.0,1,1,Très élevé 🔴
+caac2532-7ff5-48c7-b7a5-0e71fd1da116,99.0,1,1,Très élevé 🔴
+18cb02fb-355b-4ca4-b46c-f0ac0361de93,99.0,1,1,Très élevé 🔴
+7988df28-528d-4bcf-ae10-502049a34887,99.0,1,1,Très élevé 🔴
+dc81e146-0b41-4c82-86e3-599111135ea1,99.0,1,1,Très élevé 🔴
+f8db1594-502f-4c02-a343-1d99f621ab04,99.0,1,1,Très élevé 🔴
+6ec55543-9d9a-487e-ab23-2e24d2fe49df,99.0,1,1,Très élevé 🔴
+5b77a11c-8b35-4177-887e-ee5bfc435353,99.0,1,1,Très élevé 🔴
+4979e7a9-bbdc-471d-85b8-1018d8f28c00,99.0,1,1,Très élevé 🔴
+425fc8b0-fc54-4064-bbc9-88ce691b5007,99.0,1,1,Très élevé 🔴
+12465614-2f49-4566-b87a-4d4761647d13,99.0,1,1,Très élevé 🔴
+935a9580-b236-41ea-bd26-784006832b67,99.0,1,1,Très élevé 🔴
+37400bcb-62ff-46f9-9c08-ba6b39cfb5b0,99.0,1,1,Très élevé 🔴
+39b37423-1e7b-4ade-bc00-5f1add5cf2d5,99.0,1,1,Très élevé 🔴
+b3cd1996-f5e2-4ed1-9cbb-bbb35dc2cf95,99.0,1,1,Très élevé 🔴
+2270df15-8531-43d5-9f64-589d3d6a6255,99.0,1,1,Très élevé 🔴
+96392ca3-b840-4ddc-b780-bcc7069e1aac,99.0,1,1,Très élevé 🔴
+e00e1eef-5ec9-4de5-a83c-2fab1639e378,99.0,1,1,Très élevé 🔴
+0cd35924-beb4-4c64-a14f-e03e62dc6dba,99.0,1,1,Très élevé 🔴
+9b97b9d1-be46-48c9-8ce4-d770332415e5,99.0,1,1,Très élevé 🔴
+2fc3d06e-9736-4489-83b9-3745fa1ba524,99.0,1,1,Très élevé 🔴
+dee961e2-f5b5-4a00-895e-93ee2c254d84,99.0,1,1,Très élevé 🔴
+27e374ff-714d-40cc-b898-ec0cbd9de920,99.0,1,1,Très élevé 🔴
+3f4c859e-8072-40cc-a28e-69395d14d113,99.0,1,1,Très élevé 🔴
+3f67ceea-9854-44db-bf5b-fc836c10ae29,99.0,1,1,Très élevé 🔴
+45e60be7-74a2-433a-ac58-ab1361b22bf0,98.0,1,1,Très élevé 🔴
+bb818501-becd-404e-bf4e-904be66027de,98.0,1,1,Très élevé 🔴
+70f9bc57-0cb8-4eb1-a77e-b7a895ad9d50,98.0,1,1,Très élevé 🔴
+4629606b-c794-4fbd-b035-4f1cf0c2c857,98.0,1,1,Très élevé 🔴
+aefa97a1-46e7-47fb-a8bb-8a365c7a07d8,98.0,1,1,Très élevé 🔴
+425473ac-fcd2-4d33-b2fe-cef9c61d00d0,98.0,1,1,Très élevé 🔴
+e4f47095-c0df-48fa-aac8-c677413355ee,98.0,1,1,Très élevé 🔴
+a1bac771-8e5d-421a-896c-14d6728eb605,98.0,1,1,Très élevé 🔴
+71181a36-3d95-4bca-8b70-26ce95030f97,98.0,1,1,Très élevé 🔴
+8fe84b65-70ba-44dd-83f8-0691d02f2a42,98.0,1,1,Très élevé 🔴
+3c0b77c7-075a-4bec-a16e-857e0730df8c,97.0,1,1,Très élevé 🔴
+d5c846fb-ebd0-43b6-9511-1bd50be23b58,97.0,1,1,Très élevé 🔴
+48c159ba-da5d-4542-9ab7-7ddae71753fe,97.0,1,1,Très élevé 🔴
+9e5ec045-7f62-4e74-aea4-9ed877ae746f,97.0,1,1,Très élevé 🔴
+68007b99-bf4e-4ec9-a411-a75c27f7af23,97.0,1,1,Très élevé 🔴
+a1efd1fe-724a-4e39-bb7d-f0ffd41538d7,97.0,1,1,Très élevé 🔴
+48960b91-9470-4d5c-9bcf-1dca27e0ee25,97.0,1,1,Très élevé 🔴
+44afba58-1efc-4d6b-ab83-2e8551026352,97.0,1,1,Très élevé 🔴
+a42833f6-62f1-444e-9f43-6324cdbdf58d,96.0,1,1,Très élevé 🔴
+42be3f35-1330-4835-bf71-4881550a55a3,96.0,1,1,Très élevé 🔴
+330f90a1-4bfb-44c6-b06f-3db75cc387a3,96.0,1,1,Très élevé 🔴
+834f5f03-4851-41bd-9762-2b0198026e14,96.0,1,1,Très élevé 🔴
+c4053e40-3e23-42bd-a066-c80e946e918c,96.0,1,1,Très élevé 🔴
+e5d44da8-9c44-4fa6-8b5c-b205c71827f8,96.0,1,1,Très élevé 🔴
+57d9cb1a-faf9-413c-882d-576898e12b92,96.0,1,1,Très élevé 🔴
+bcbc3409-d3fc-46a4-bc58-522cf7c3ed7e,96.0,1,1,Très élevé 🔴
+eef700e3-17d1-4d0a-b966-e89b6320385b,95.0,1,1,Très élevé 🔴
+c8ce0f4a-7341-4808-9f1b-fba16fba22d6,95.0,1,1,Très élevé 🔴
+e963763b-6a1a-4fa3-8c3e-20cae91bcd62,95.0,1,1,Très élevé 🔴
+50522064-1620-41ca-beb1-cc831274eba0,95.0,1,1,Très élevé 🔴
+c8b89b3c-30c7-4ebf-8520-a70ab3b4d612,95.0,1,1,Très élevé 🔴
+66f05064-0ca5-4c69-b901-75b7d5ee1696,95.0,1,1,Très élevé 🔴
+2282d7c2-4905-4618-a93d-5a1cb9b6aff4,94.0,1,1,Très élevé 🔴
+1214f6c2-f0db-4e6e-95ec-d8c5f47d900e,94.0,1,1,Très élevé 🔴
+690b6d06-98e2-4312-a84f-f3a234c089b9,93.0,1,1,Très élevé 🔴
+8e116176-ea3d-4e05-a76f-78c755ed686a,93.0,1,1,Très élevé 🔴
+3b52ebff-e3cf-4b43-ad47-051006e69078,93.0,1,1,Très élevé 🔴
+8ad5201a-9b78-401f-a5dc-4616bfe3ed0c,93.0,1,1,Très élevé 🔴
+67d41c30-890a-4016-b242-448f56fa617d,92.0,1,1,Très élevé 🔴
+bc610f80-cd81-4d37-89a3-956eebeb1e8f,91.0,1,1,Très élevé 🔴
+9566dec3-ccd9-452b-859e-a961d287e465,91.0,1,1,Très élevé 🔴
+629dce10-d5d3-4fa7-9e8d-fcd5e83a97d2,91.0,1,0,Très élevé 🔴
+6b583beb-c7b0-4218-b7fb-fcf81adfaab2,89.0,1,1,Très élevé 🔴
+28915602-3ed7-472e-a49e-34ed54c27667,89.0,1,1,Très élevé 🔴
+615d1944-b152-4274-b23a-0a2cac243993,89.0,1,1,Très élevé 🔴
+5df75f59-2609-423c-927c-95f1439052f0,89.0,1,1,Très élevé 🔴
+44bd0383-ba32-49c8-b86b-102210504227,88.0,1,1,Très élevé 🔴
+0424fa36-b131-4d73-ac3d-2a9d856ee8ce,87.0,1,1,Très élevé 🔴
+80f9ea2c-242b-4687-a521-d487bb7e69c4,87.0,1,1,Très élevé 🔴
+8b9a4288-0056-40e6-ae87-27b1f75391e7,87.0,1,1,Très élevé 🔴
+51e6622e-4d07-435a-8ac9-d2bd1d73e193,86.0,1,1,Très élevé 🔴
+07cf78a0-8083-46b7-afa7-b67d7fabbaa2,86.0,1,1,Très élevé 🔴
+59cad939-e1ce-4768-b404-723c76158a43,86.0,1,1,Très élevé 🔴
+08a5f491-c99c-4497-8b90-2a46dd251972,86.0,1,1,Très élevé 🔴
+ebab2a15-212a-4cfc-8772-63478c18231f,85.0,1,1,Très élevé 🔴
+c1a8e2ca-a668-4e62-a074-403be041af9e,85.0,1,1,Très élevé 🔴
+4e8bfb4d-f16d-4b67-b62d-1a6b9f199ab0,85.0,1,1,Très élevé 🔴
+39d890ae-84fa-4f42-ab1d-2ccd90173ccb,85.0,1,1,Très élevé 🔴
+6ad8ede2-3161-46c7-9979-26d0dcda045c,85.0,1,1,Très élevé 🔴
+0a34c53e-78fa-4725-b709-ddd5434a2718,84.0,1,0,Très élevé 🔴
+c3234f02-43c3-4627-99b6-9a33a7f0eeb1,84.0,1,1,Très élevé 🔴
+3a5f3752-e4a1-4f2c-8411-71e6983be188,84.0,1,1,Très élevé 🔴
+c53c0ebf-3863-4ed8-8dc8-95893740f728,83.0,1,1,Très élevé 🔴
+d4557d5b-df8b-44be-b7ce-905acb1eb086,83.0,1,0,Très élevé 🔴
+b2dc4cbc-86d8-4a11-9e1e-1fb772634c91,83.0,1,1,Très élevé 🔴
+44721d67-34fd-4391-991e-ed73c1a9dade,83.0,1,1,Très élevé 🔴
+0007deb3-726d-4f8e-99a1-6e75ae3091db,82.0,1,1,Très élevé 🔴
+86ebc545-9344-40eb-8a76-c274815a6614,80.0,1,1,Très élevé 🔴
+1a31c241-a319-42ca-8057-ddf34c0a355e,80.0,1,1,Très élevé 🔴
+c79ff97a-2b57-4972-80ea-3198b9dce415,79.0,1,1,Élevé 🟠
+f01ab9cc-ab3b-4f67-8369-42e8fbd29bc6,79.0,1,0,Élevé 🟠
+ccc85da0-ebb2-48d2-aa7d-528d7a0b754c,75.0,1,1,Élevé 🟠
+e9cb61d1-b281-483b-ac4d-02b6282ed5a2,74.0,1,1,Élevé 🟠
+aaf16fdd-598b-4d02-908b-d2b70aa41aa4,74.0,1,0,Élevé 🟠
+a1bff184-2ae4-4482-a4f6-5c7c19206397,73.0,1,1,Élevé 🟠
+4db1c17a-7da1-4976-9730-fd74910f2384,72.0,1,1,Élevé 🟠
+67e4c0ee-3886-415d-8492-a8a37f1a68a4,71.0,1,1,Élevé 🟠
+b5b21dab-5401-4bb8-aa6a-de05651944db,71.0,1,1,Élevé 🟠
+55bff1a3-b858-406e-8466-3f8a9e1c5753,69.0,1,1,Élevé 🟠
+1e254137-d24c-4cbc-95e8-4dc68209404a,68.0,1,1,Élevé 🟠
+69da40b2-f2b0-4974-8236-3c9e65d2178f,68.0,1,1,Élevé 🟠
+91a7018a-03c8-4ee6-91d9-f16b21a7cc8f,68.0,1,1,Élevé 🟠
+de282661-f7c4-4658-97c4-b931e023d42c,67.0,1,1,Élevé 🟠
+c8d83b87-8b73-4890-a149-8441d675e57d,65.0,1,0,Élevé 🟠
+29a9fc88-51f9-43f6-84df-440550bc4695,65.0,1,0,Élevé 🟠
+ed40d8d0-703a-44b8-bb0b-e6cf681fa50c,63.0,1,1,Élevé 🟠
+3fc8c1f1-efb5-4eef-8d88-08392bf88e58,62.0,1,0,Élevé 🟠
+9e4ea838-c647-4f75-8d33-e8575ab8e730,61.0,1,1,Élevé 🟠
+7f408e8a-d514-497a-bffd-eadbe28ccf6e,60.0,1,0,Élevé 🟠
+43f821a9-fb0b-477c-b33f-15e88a29bba9,60.0,1,1,Élevé 🟠
+035485a4-43c5-40c8-b60d-ceaa5362ead5,59.0,1,1,Élevé 🟠
+87ecb8df-7480-48ad-bfa9-4e5338d55298,58.0,1,1,Élevé 🟠
+c09cfd2a-ee8a-49ba-9395-5b8f9f5a7981,57.0,1,0,Élevé 🟠
+01cccd93-cda1-43a0-bfb4-091122176a60,56.0,1,1,Élevé 🟠
+fd8625f3-2f22-40a0-8518-4e405d3c475d,56.0,1,0,Élevé 🟠
+3b9f69bd-9676-4734-aff7-3834b21e6ce5,56.0,1,1,Élevé 🟠
+85d1461e-0c49-4ce8-9d41-66df2548243a,55.0,1,1,Élevé 🟠
+78cc6a33-49f9-4cd2-ae78-32ca371a6d3c,55.0,1,1,Élevé 🟠
+7eaa3d57-7aec-4a08-86c0-6f83ac22a29d,54.0,1,0,Élevé 🟠
+44f2bdf8-c632-4c37-b4ea-b7d80a8d297d,54.0,1,1,Élevé 🟠
+a33d582b-b556-4f8d-aef6-83869ea94784,54.0,1,0,Élevé 🟠
+d0c4d23a-8a63-4acb-a29e-06364aabd42e,54.0,1,1,Élevé 🟠
+dfede088-f4f2-467d-a9ae-4441a143cd67,53.0,1,0,Élevé 🟠
+9c6fb74d-e892-4eff-ba4b-f463c7c0dd22,52.0,1,1,Élevé 🟠
+e43d4302-4c10-4aaf-9626-be5cf6cde7cc,52.0,1,0,Élevé 🟠
+99a8c67f-53b6-476d-88f8-e098534751e4,52.0,1,0,Élevé 🟠
+9bf417dd-6f7b-43bc-8c26-187521916973,50.0,0,0,Élevé 🟠
+b47e2623-e675-44c2-8d88-f1d52f4dba4a,49.0,0,1,Modéré 🟡
+9b94c7ba-e292-4c7a-9c0c-9aaf70b56c69,48.0,0,1,Modéré 🟡
+f5727492-e5d1-4c41-bad5-758aaea6f059,46.0,0,1,Modéré 🟡
+1290f2ce-dfd6-4e2f-b54e-53e6f121bfdc,45.0,0,0,Modéré 🟡
+3629fd04-9afd-4219-b6c2-1524095ea2c8,45.0,0,0,Modéré 🟡
+ded50cf2-0cd9-442e-8d30-3312b0505e4f,44.0,0,0,Modéré 🟡
+a0f10845-53d8-403e-949a-b8840929d322,44.0,0,0,Modéré 🟡
+88cb959b-3ca7-402d-a6b0-5ba9f6acfd8b,44.0,0,1,Modéré 🟡
+911dbf02-26e1-490c-ab04-05053fc86b3a,43.0,0,0,Modéré 🟡
+527724ff-202f-43d8-8de7-e4f09bcdf9a0,42.0,0,0,Modéré 🟡
+47a4eb9e-31b1-42c6-9f1f-7abfa0233394,41.0,0,1,Modéré 🟡
+948b983b-7272-46e6-8bd1-e0f2c282d606,40.0,0,0,Modéré 🟡
+a03ad7f1-ab6a-4717-a8e5-35631ef86246,40.0,0,1,Modéré 🟡
+f2913231-7088-4c20-bc76-b779bc9d2e01,39.0,0,1,Modéré 🟡
+e19c8694-8fea-40ae-ad92-e2f253da5d63,38.0,0,0,Modéré 🟡
+1cc650b3-9a90-404e-9f5b-ea021263636f,37.0,0,0,Modéré 🟡
+34f22647-50bc-4012-a6c2-078237f40951,37.0,0,0,Modéré 🟡
+c71c9925-4e41-4171-b844-a0c63cff4613,36.0,0,1,Modéré 🟡
+a2488d98-606a-43e6-b6c5-682c43f698cb,34.0,0,0,Modéré 🟡
+d0be830b-9cab-4037-9224-c76b4d2aed4b,32.0,0,0,Modéré 🟡
+e7a6e892-9b9c-41d0-8ddd-b53291b87177,32.0,0,0,Modéré 🟡
+ea8c1e54-b41c-4953-a49a-826bd8d0ff95,32.0,0,0,Modéré 🟡
+657506ef-4ca2-4867-bbb9-07bfb8e09b37,31.0,0,0,Modéré 🟡
+d6661319-ef1a-4fbe-b414-2750c13e4db6,29.0,0,1,Modéré 🟡
+75b30b01-d571-4f86-8923-11f2870b1a0f,29.0,0,0,Modéré 🟡
+55115706-5862-450e-aef2-a54fd81da8c4,27.0,0,1,Modéré 🟡
+af5a66fa-b017-4199-874a-b1070a2f3a13,27.0,0,1,Modéré 🟡
+8ccd99e0-8fc7-4675-ad14-0b0f5a3193d8,26.0,0,0,Modéré 🟡
+7af6eb5f-7070-4824-bc2d-b6809f428a6b,26.0,0,0,Modéré 🟡
+3bd735f8-51eb-4128-897b-939ee8584321,26.0,0,0,Modéré 🟡
+3a1d2b64-2726-4735-8af6-b1ef8dcdede4,25.0,0,0,Modéré 🟡
+6075b24c-5667-49b1-b4d2-54f15acaaaa2,24.0,0,1,Modéré 🟡
+f7528694-fb96-4404-b5b9-9a80d832628b,24.0,0,1,Modéré 🟡
+1fcca0c6-dedd-4903-adb3-0f3ee141afdd,24.0,0,0,Modéré 🟡
+07b28853-57ef-4fb6-b48f-efd0ccfe9d9d,23.0,0,0,Modéré 🟡
+7569c1d2-b0ef-46b7-835d-06f24bfc337f,23.0,0,0,Modéré 🟡
+216e269e-f352-4c56-b415-c06e7343eac3,23.0,0,0,Modéré 🟡
+67959732-33a2-4762-9e6a-fe9ee659bf1a,23.0,0,0,Modéré 🟡
+1e878f21-74fe-44a7-99d5-e194ac79cf59,23.0,0,0,Modéré 🟡
+464fa44d-457f-46a3-8024-da707ea1ae13,22.0,0,1,Modéré 🟡
+f37655c8-a292-496e-9eac-a5f5cfe328f8,21.0,0,1,Modéré 🟡
+8d56186f-cdb5-4ef0-b228-664d8a3f7d77,21.0,0,0,Modéré 🟡
+76bfe834-16ae-42ad-b71e-6856b7df1ee8,20.0,0,0,Modéré 🟡
+886c01b6-9797-48cf-bfec-89ce68379978,19.0,0,1,Faible 🟢
+500ad6ac-7391-4c2e-8610-c3acced75dea,19.0,0,0,Faible 🟢
+3fa4f144-4f21-46de-9b86-f4afa2634e63,18.0,0,0,Faible 🟢
+240c27d6-28c1-4543-8153-14e06e02f6b3,18.0,0,0,Faible 🟢
+0496088e-5292-49d4-aa6b-9099916f950b,17.0,0,0,Faible 🟢
+1f8f7c3d-6c85-4955-8180-c7eb4d158718,16.0,0,0,Faible 🟢
+9ac8f2d7-927c-46ab-8e61-db2c77992751,16.0,0,1,Faible 🟢
+e580dad2-d601-454a-8a1a-84cea8ad82fd,15.0,0,0,Faible 🟢
+85487893-857f-499e-8ffc-f3166baa53e7,15.0,0,0,Faible 🟢
+d99dd420-aaf1-4c8a-b293-fe5d40425e74,15.0,0,0,Faible 🟢
+caa0d0b9-567f-4245-9ed1-9bff1197c94b,14.0,0,0,Faible 🟢
+8ebe4e68-09f0-4e94-aff4-60ceef2a41b1,14.0,0,1,Faible 🟢
+8e015ab9-51af-4679-bf5f-5516cb0806e2,14.0,0,0,Faible 🟢
+739f3289-0ed9-4962-939f-6742af0b18bb,13.0,0,0,Faible 🟢
+ce078056-e5d2-4ff4-b7e0-0ec0a75f4387,13.0,0,1,Faible 🟢
+5b94b6cc-b529-484d-a625-0c5e50f3b0f4,13.0,0,0,Faible 🟢
+68c238e2-6e70-4995-b1ed-024791673796,12.0,0,0,Faible 🟢
+f687549a-afe5-493e-b6c0-bb20af9d0108,12.0,0,0,Faible 🟢
+dded0e17-cdc8-4722-8b89-2fc71dfbc853,12.0,0,0,Faible 🟢
+64c66f09-3889-4943-b608-07ea39dbf79c,11.0,0,0,Faible 🟢
+9930b94d-3ffa-4133-9d67-ddc5b05507dd,11.0,0,0,Faible 🟢
+933c0867-20ca-4b20-b343-550af8d3ae30,11.0,0,0,Faible 🟢
+3c1319b1-33a5-4d8c-be59-e0c88495918b,11.0,0,0,Faible 🟢
+1406cce1-9413-4755-bc6b-39d17dd9849c,10.0,0,0,Faible 🟢
+4426c83f-85c7-4ede-ad98-ae1aa2e1ea7b,10.0,0,0,Faible 🟢
+3308f09e-6844-42b2-b230-53fec64dc7e9,10.0,0,0,Faible 🟢
+3c7a0b1a-7042-44c7-850d-74493a02ac7e,10.0,0,1,Faible 🟢
+19bf5c10-88a6-4f5d-8e77-36481c0b86e5,10.0,0,0,Faible 🟢
+8c42b62b-fddf-49af-a123-abf18e34ee84,10.0,0,0,Faible 🟢
+372369eb-4c58-4c44-8da9-f775ac17e35d,10.0,0,0,Faible 🟢
+13034951-075b-44bd-b783-d6205949f68d,9.0,0,0,Faible 🟢
+1762d855-1b20-4b5b-95f1-b0019110fd3a,9.0,0,0,Faible 🟢
+27cc5f61-c8f5-42b9-b76b-251c89e66aaf,9.0,0,0,Faible 🟢
+ee02e294-0653-48cc-b395-0740340e4426,8.0,0,0,Faible 🟢
+c5064a97-a3b0-49a6-9ca5-80d632483993,8.0,0,0,Faible 🟢
+5ba42dc4-ebf8-466e-819e-f834c2d6418d,8.0,0,0,Faible 🟢
+66a1c08a-885f-4639-86ae-7989ba153828,8.0,0,0,Faible 🟢
+cebac6c2-9b42-4b1d-80a5-272e7bb98665,8.0,0,0,Faible 🟢
+757af63e-4250-4627-bffc-70c877a59535,7.0,0,0,Faible 🟢
+be1c9d38-58a7-4b01-852c-6510227c09c7,7.0,0,0,Faible 🟢
+99b72cd9-ed3d-41c1-a2ca-5fa1295c57a2,7.0,0,0,Faible 🟢
+6bc85ed4-43bd-47e4-a6a0-44362e95b258,7.0,0,0,Faible 🟢
+86f48b6a-10bc-4c03-ac26-fe8ce2930c9c,7.0,0,0,Faible 🟢
+8f931a2a-8a28-4f9a-b17b-c20b82bcdf6e,6.0,0,0,Faible 🟢
+b04581d7-a23b-43bb-9b81-95b997282b8d,6.0,0,0,Faible 🟢
+74da569f-8b84-45c9-a7de-49fa009d8444,6.0,0,0,Faible 🟢
+b5935021-a37b-4af4-a090-32fa7fa4672d,6.0,0,0,Faible 🟢
+103d7fef-1560-45ab-b143-f96ac71c6ff3,6.0,0,0,Faible 🟢
+72f6dd83-033f-4d0f-9911-ac34347fd54d,6.0,0,0,Faible 🟢
+eadbafe5-9248-4ecc-894c-cbbd8a425fe5,6.0,0,0,Faible 🟢
+4afc73ad-0778-47c0-a8c7-a7dd48e8c186,6.0,0,0,Faible 🟢
+d3ca54eb-0cdc-46e2-b651-8806931efb09,6.0,0,0,Faible 🟢
+dc01f177-515b-4094-92c5-7de39ca4c7bd,5.0,0,0,Faible 🟢
+dea6ef65-db82-4f89-b58e-44d68f4f7639,5.0,0,0,Faible 🟢
+39c7e6d7-4773-49f8-be0d-7045149be315,5.0,0,0,Faible 🟢
+deaa59fb-1a6b-48a4-b4a0-d88ffca4a0eb,5.0,0,0,Faible 🟢
+5a8310c2-8753-4425-9d09-352e5ed7c020,5.0,0,0,Faible 🟢
+cb6cd5a3-a7d0-4eb3-b94b-24bd07e6f83c,4.0,0,0,Faible 🟢
+a270e4e7-09a9-4392-9226-5ec9250742c1,4.0,0,0,Faible 🟢
+542bd002-b7a0-4844-a120-5a2f79c2afa1,4.0,0,0,Faible 🟢
+e754ad42-4959-4fc1-83df-e18bdaea608f,4.0,0,0,Faible 🟢
+5d7a6a01-4b77-4a87-b0fd-d2604015bad6,4.0,0,0,Faible 🟢
+955f3347-92c5-44bb-9d78-9ae5a7d9fca0,4.0,0,0,Faible 🟢
+42ea3a7c-0dda-4606-b055-2bdc8fa77cf8,4.0,0,0,Faible 🟢
+1f18ef5f-ae8b-4037-a507-5adfe12489d0,3.0,0,0,Faible 🟢
+d390f1e2-5b6b-4c1c-accb-1a5266fd7623,3.0,0,0,Faible 🟢
+eba6dcba-14fe-42f1-a947-855a286e87cf,3.0,0,0,Faible 🟢
+49a3fa60-25e6-4586-a967-ce2cea470375,3.0,0,0,Faible 🟢
+c8b1d9ae-bfae-44e6-bb74-f87961552cb8,3.0,0,0,Faible 🟢
+a0146e2f-8021-4e41-8055-51580f397367,3.0,0,0,Faible 🟢
+d7c81878-4ab5-4f74-9b02-fc8885889220,3.0,0,0,Faible 🟢
+347267c6-d624-4ff1-bbc4-dae41ff79bea,3.0,0,0,Faible 🟢
+e8a73923-a73f-495d-ba7f-29b6d5295446,3.0,0,0,Faible 🟢
+9f8d080f-d4ad-46e8-95b8-c5f99c71de69,3.0,0,0,Faible 🟢
+cadfe7ec-a617-41d7-9ee1-adfe9bf73951,3.0,0,0,Faible 🟢
+e8c2feec-055e-4cb7-9bdc-b884fab1cf27,3.0,0,0,Faible 🟢
+79804b5d-94f0-4e62-b28b-e130243fb416,3.0,0,0,Faible 🟢
+1739af2c-db39-4638-866e-0a328116e079,3.0,0,0,Faible 🟢
+438958e7-9dbe-4c53-81f9-ffe6f6f4a43d,3.0,0,0,Faible 🟢
+2c6d1013-21b5-4c97-b377-ee36e99d887e,3.0,0,0,Faible 🟢
+e9bf17d2-1a94-43c6-8eba-0b433778b3cf,3.0,0,0,Faible 🟢
+a82e2092-f32b-400a-bd68-5ebb82a9a508,3.0,0,0,Faible 🟢
+ec9c5ff5-d8ce-4b51-adc8-ac7dd3d07ba5,2.0,0,0,Faible 🟢
+48e8fad5-8567-41cf-9405-4d4d6593deed,2.0,0,0,Faible 🟢
+d31a218c-f9d0-4497-8c2b-365e0fba7218,2.0,0,0,Faible 🟢
+deb6ffc7-6ca3-446b-b5a8-53c6a04ea7ac,2.0,0,0,Faible 🟢
+847a4cf5-6093-44b0-beed-0889cc2d4897,2.0,0,0,Faible 🟢
+4ae978c1-f7bd-46a9-b2ac-a660a3c76582,2.0,0,0,Faible 🟢
+00366b61-d08b-451a-9a35-05934fa592f4,2.0,0,0,Faible 🟢
+b8641fed-b5d7-4591-be22-9fc344df3649,2.0,0,0,Faible 🟢
+9f0c7f6d-c6e4-4637-bf82-46d58e40061f,2.0,0,0,Faible 🟢
+50114b04-66c0-4427-9a8f-212e63335b6c,2.0,0,0,Faible 🟢
+00977ff0-cfe4-4167-9f3a-e112d507b300,2.0,0,0,Faible 🟢
+c429144b-b608-49e3-8af1-95ddfd2e2c6d,2.0,0,0,Faible 🟢
+a64a3c09-5958-49ec-ba59-26f917a7742c,2.0,0,0,Faible 🟢
+607f547f-8454-485a-a7ad-4efedb4da1b9,2.0,0,0,Faible 🟢
+baa3ed34-c1d1-46e3-8aa1-0f2214c2d112,2.0,0,0,Faible 🟢
+9d410f1d-81cb-4d6c-932c-83acd79f95ed,2.0,0,0,Faible 🟢
+f6cc003b-51d7-4350-b911-013859e40c58,2.0,0,0,Faible 🟢
+bc776614-e25b-4341-a71e-a2da2be9c736,2.0,0,0,Faible 🟢
+5ded214f-0707-49c9-a544-be3f7511a608,2.0,0,0,Faible 🟢
+9aec5b19-741c-48d1-ba8d-242269cd30dd,2.0,0,0,Faible 🟢
+490ceefc-77e7-4f22-afac-4d87ac4a9e7b,2.0,0,0,Faible 🟢
+d3fe551a-2654-41a8-a852-7110f823a304,2.0,0,1,Faible 🟢
+e1c2e992-c6eb-4bcf-ae58-304e726b6bcf,2.0,0,0,Faible 🟢
+e6b737e2-fe18-4e0f-ab53-2fdd0ccd3df6,2.0,0,0,Faible 🟢
+e321243c-815e-4cf7-b508-8cacc10991cd,2.0,0,0,Faible 🟢
+cd308ecc-54b1-4229-8bd0-1eb603fb17a2,2.0,0,0,Faible 🟢
+8423695a-9cf4-47ab-9a6c-b8cdcd3bdbc6,2.0,0,0,Faible 🟢
+d0d9b7e4-da93-4209-b817-431220cd96e4,2.0,0,0,Faible 🟢
+41df0925-8693-4d99-86aa-f36035f91d97,2.0,0,0,Faible 🟢
+17ac93ff-0327-4f2d-b0b7-27828afd3333,2.0,0,0,Faible 🟢
+40322ce3-bcc2-4775-8dd3-8ee6d19bfbfa,1.0,0,0,Faible 🟢
+d43ebef0-3fe6-4061-a142-a190cd3d3866,1.0,0,0,Faible 🟢
+9a915ca4-27a2-4600-874a-9459fca676dd,1.0,0,0,Faible 🟢
+0ded4bdd-404d-4adf-b868-227c3ba4bd37,1.0,0,0,Faible 🟢
+cd81d410-f921-4dd3-9ead-a7d0d4165d09,1.0,0,0,Faible 🟢
+61b4cb84-e01f-4f13-8e1b-f5d5b5c6fbef,1.0,0,0,Faible 🟢
+8131edee-b014-4f6f-bd88-c52ceec2123e,1.0,0,0,Faible 🟢
+80551605-6493-4432-a251-83eeb44456be,1.0,0,0,Faible 🟢
+d893586b-8eca-41c5-b8aa-13f4a9a032e7,1.0,0,0,Faible 🟢
+0d001609-65e2-4744-b6f6-4f46de521a7d,1.0,0,0,Faible 🟢
+7453d944-6141-432c-94b7-8ff24e7d30cc,1.0,0,0,Faible 🟢
+78aff87b-0b2e-4a0f-9dd8-c817a02a9ca4,1.0,0,0,Faible 🟢
+5abb1dff-1efd-43ae-ae91-66a3a7bc01cf,1.0,0,0,Faible 🟢
+f5742041-68cd-4fc4-b695-1fe0b66b13ce,1.0,0,0,Faible 🟢
+166abcf3-67d1-4e23-acd6-3bb97493b50b,1.0,0,0,Faible 🟢
+92ba0066-7fbc-414c-8263-b3ea8c53a99b,1.0,0,0,Faible 🟢
+6c9cf855-3cfc-4f92-a4ed-78f291f8c953,1.0,0,0,Faible 🟢
+3f3d7834-635f-4f74-84ee-f984ee654441,1.0,0,0,Faible 🟢
+5a393b0d-5b61-404a-91a7-8534f78dac58,1.0,0,0,Faible 🟢
+0cd2f527-fc00-449d-b9ff-5f1c642a467a,1.0,0,0,Faible 🟢
+e39604e3-2971-4363-b64b-45ee3e983516,1.0,0,0,Faible 🟢
+4dc0e72e-a6ed-46b4-b213-651e53191bf0,1.0,0,0,Faible 🟢
+ea3d4ee1-c783-44b3-8c99-acc2d250c9d8,1.0,0,0,Faible 🟢
+d1fe680a-3be4-4753-86eb-9fd664dc9ee9,1.0,0,1,Faible 🟢
+c59d2044-d593-49de-9575-26f72540968f,1.0,0,0,Faible 🟢
+b829e273-dca6-441f-b3ed-4093bef603de,1.0,0,0,Faible 🟢
+6d189928-6cdc-40e8-8cc6-aff9e42e3d28,1.0,0,0,Faible 🟢
+22148fd7-c837-4e88-bd1a-31314e5f7360,1.0,0,0,Faible 🟢
+6d9ec781-bc60-4bb7-87d5-a6ad6a60efde,1.0,0,0,Faible 🟢
+46ca4361-5f24-4f32-8d39-c0d00637ef88,1.0,0,0,Faible 🟢
+3308d2ff-6aa1-4e88-8619-c9566339e9a0,1.0,0,0,Faible 🟢
+27f9204d-5232-453e-b98d-e05f8564370d,1.0,0,0,Faible 🟢
+12997fbb-f203-4c71-9eaa-5c8f8a8aea1c,1.0,0,0,Faible 🟢
+33d3ccbe-c0f5-4770-aa2d-26c05fcc8bd1,1.0,0,0,Faible 🟢
+bf500b93-3735-440d-8445-567be0592038,1.0,0,0,Faible 🟢
+28337c74-c93f-4a2d-b52d-e5dbdd810831,1.0,0,0,Faible 🟢
+e75d902f-ef3b-4b5a-801a-f8ea836b410a,1.0,0,0,Faible 🟢
+4fa08486-01ec-483a-8d6f-54ce87aaf71f,1.0,0,0,Faible 🟢
+06d30d81-7372-47bb-8ed9-07ed24b2b454,1.0,0,0,Faible 🟢
+1bae3370-9043-4e96-9ab6-247ab465b51a,1.0,0,0,Faible 🟢
+9ba43aab-f96e-49d1-80f1-e2c8cb03d6d1,1.0,0,0,Faible 🟢
+f552e228-7876-4cbd-af03-66c165e9b137,1.0,0,0,Faible 🟢
+30703aaa-1142-4222-9f90-6cb9c5963cbd,1.0,0,0,Faible 🟢
+598af57d-8567-44f0-bd4d-2d537dfe8e43,1.0,0,0,Faible 🟢
+cdaa0af0-2066-47ed-82af-f12f2b5229f7,1.0,0,0,Faible 🟢
+bfd43885-0dae-4f7c-9ff2-c0cfc9f5bac4,1.0,0,0,Faible 🟢
+dbb31892-e87e-45e4-9c76-0762405f7ab5,1.0,0,0,Faible 🟢
+7b5ac3e4-5def-46b0-92b9-e344b80d25ba,1.0,0,0,Faible 🟢
+7e3130e3-4697-4161-8fe0-cd5a7fd826e3,1.0,0,0,Faible 🟢
+d7f22921-aa02-4c8a-a64c-e94ad044ff6e,1.0,0,0,Faible 🟢
+fd932982-35b7-4076-8adc-ef266524828a,1.0,0,0,Faible 🟢
+f903ea32-ce6c-4be6-83bd-9499ea678667,1.0,0,0,Faible 🟢
+ea247338-0225-45e2-8cd1-25de839b0696,1.0,0,0,Faible 🟢
+cbd6df8c-3753-4e84-8818-0f7ddb43fac7,1.0,0,0,Faible 🟢
+f89df0b5-0cb1-45df-a214-9298bf0b4ce3,1.0,0,0,Faible 🟢
+ba9734ed-bcf1-4acd-bfd8-1797e7f08b2f,1.0,0,0,Faible 🟢
+9095709b-69f9-4060-b6d6-490d753f622c,1.0,0,0,Faible 🟢
+66a5a2ea-eea6-4e20-b137-1c63f4f1bd74,1.0,0,0,Faible 🟢
+14b62567-6b9e-40b8-bfd0-e843a60c03b3,1.0,0,0,Faible 🟢
+68d2a332-f779-41a7-bc1e-639bd8023e94,1.0,0,0,Faible 🟢
+630bed3a-4102-4bf7-8a47-0ae954700ba3,1.0,0,0,Faible 🟢
+39732584-e51e-4bda-94ed-7ec3fab37232,1.0,0,0,Faible 🟢
+5c476cd4-1688-4005-b522-8716d9bbeba2,1.0,0,0,Faible 🟢
+a4203dcb-41c1-42aa-8d88-14e309c8e219,0.0,0,0,Faible 🟢
+7c6a008e-4ee7-4274-82d1-01053ba535b2,0.0,0,0,Faible 🟢
+92882e5c-09fa-4617-8441-fa5b2dc8d6af,0.0,0,0,Faible 🟢
+44d66bd5-2ee7-43f7-95ee-579bbe0cefce,0.0,0,0,Faible 🟢
+b8b20d5c-db93-4fea-bf5c-3e3656b11a5e,0.0,0,0,Faible 🟢
+40ed4bd4-11cf-4422-afab-f212ffa3c454,0.0,0,0,Faible 🟢
+6ff14a6a-36f8-49b7-8526-436eb96fcd62,0.0,0,0,Faible 🟢
+aa5bbfe6-5fb7-43eb-927b-4b72e46faaf7,0.0,0,0,Faible 🟢
+7f37d4ad-2dca-4561-809f-fa18357f0033,0.0,0,0,Faible 🟢
+92bd04a8-2d22-408c-9a1e-39fbdd20ae7e,0.0,0,0,Faible 🟢
+5aa6dc4a-1988-49a5-8061-ac0b232e33f8,0.0,0,0,Faible 🟢
+e06bd716-3bfa-432d-b092-b105bb3f9bfb,0.0,0,0,Faible 🟢
+8e0973c2-e6ff-46fc-bb17-d2978db8b182,0.0,0,0,Faible 🟢
+36868617-fc7c-40ca-a762-6c9d9cc975a2,0.0,0,0,Faible 🟢
+dbbde8db-33b6-4443-be01-ab932d3dd946,0.0,0,0,Faible 🟢
+0e005515-3cd2-4f43-aacf-ce6cf4379da4,0.0,0,0,Faible 🟢
+866571ee-87b2-4d28-bf5a-1dee611404db,0.0,0,0,Faible 🟢
+7c4828eb-ab4a-49a4-b2b3-6d92f1580de3,0.0,0,0,Faible 🟢
+7d02999d-dfe5-4d64-bcf8-705f85fd43c7,0.0,0,0,Faible 🟢
+7784a38b-ea6b-475b-bf58-e227f892aec5,0.0,0,0,Faible 🟢
+d66e0567-400f-43d3-9ac1-045980e6ed45,0.0,0,0,Faible 🟢
+ba8d6843-2a3d-4097-b885-782c29fe3b94,0.0,0,0,Faible 🟢
+34150cea-3e10-4c73-b643-ce733423d25a,0.0,0,0,Faible 🟢
+653ca329-0b8a-4b25-aadf-9b33f47660c2,0.0,0,0,Faible 🟢
+525942ed-3f00-4dbe-835e-9e6d02549eec,0.0,0,0,Faible 🟢
+14473d75-3c15-42df-adbf-944dfcb5ad16,0.0,0,0,Faible 🟢
+2622b965-105e-4cc2-b65c-f215988510e9,0.0,0,0,Faible 🟢
+51306cad-d7f2-40bb-8aa9-728b3cf5ef33,0.0,0,0,Faible 🟢
+2d9aa21f-ec5f-4e0b-875b-99509fcb6e41,0.0,0,0,Faible 🟢
+3adb74a6-df88-42f9-8ae0-169322ce06ba,0.0,0,0,Faible 🟢
+0e84a183-62db-40a3-ba29-8a06e81c76f9,0.0,0,0,Faible 🟢
+b8a12bf4-6d5c-4031-b82c-a3a5c65ee5f7,0.0,0,0,Faible 🟢
+c7a9e882-06f0-4241-9fe3-e4567c285cb6,0.0,0,0,Faible 🟢
+06dbcd76-184f-498b-a32e-14937dc4c2bc,0.0,0,0,Faible 🟢
+fcd31ae0-c14e-449f-98a3-78ab7db556a7,0.0,0,0,Faible 🟢
+dbe46bc6-0339-4c28-b405-d54594582791,0.0,0,0,Faible 🟢
+1a1adf28-783e-4674-b3a9-698d6d992e7a,0.0,0,0,Faible 🟢
+38234387-0285-4e04-ad7c-40699cd07d16,0.0,0,0,Faible 🟢
+c6dd7a87-163e-4812-aebf-d538f1ad033d,0.0,0,0,Faible 🟢
+1bbf614d-fb4d-47d1-ab60-b5bf5919b784,0.0,0,0,Faible 🟢
+d3397444-2882-411a-9ce8-852a97d1b347,0.0,0,0,Faible 🟢
+e3d965f3-ae1e-4062-be88-9bc4eb7af79a,0.0,0,0,Faible 🟢
+59211bd3-8e32-4d0c-ac8e-1311a764e1d0,0.0,0,0,Faible 🟢
+e6072808-05bc-4cee-9dbb-a1ec9a96158f,0.0,0,0,Faible 🟢
+2491994c-e4f5-4e20-938d-8e3f2d238ad4,0.0,0,0,Faible 🟢
+820c0cda-b671-4254-bf64-cf4dd89e12eb,0.0,0,0,Faible 🟢
+b60f9b31-03f1-4140-9613-77c221f22203,0.0,0,0,Faible 🟢
+d60ae887-c493-410c-bcd7-d080e0cba704,0.0,0,0,Faible 🟢
+c3759891-ab1b-43eb-b98b-62eda1c4f135,0.0,0,0,Faible 🟢
+59ad9d92-a98e-4631-9082-c23f474ab89d,0.0,0,0,Faible 🟢
+1a2b0b69-565a-4338-b188-82ea390698d6,0.0,0,0,Faible 🟢
+8804281d-ca54-43ac-ae4a-bff72c93d657,0.0,0,0,Faible 🟢
+0ffcd47d-1f69-45d4-8a62-88e5cfe17383,0.0,0,0,Faible 🟢
+57f62507-1178-4b45-9f3d-0b3c506316e0,0.0,0,0,Faible 🟢
+03d935a9-7707-4937-b81b-ef8b2fd46c3a,0.0,0,0,Faible 🟢
+b1cbaa57-4cda-4e2a-bcd0-3c2701f1d0fa,0.0,0,0,Faible 🟢
+e982bfb0-e4b3-4601-8b5c-0dc936a2ed40,0.0,0,0,Faible 🟢
+b62c0556-cc13-4140-80b8-20010b10f879,0.0,0,0,Faible 🟢
+64719901-0227-434b-b9ca-3f6afcc71277,0.0,0,0,Faible 🟢
+26eaf4cd-220b-4d2e-9dd5-528cadc98be6,0.0,0,0,Faible 🟢
+cae907eb-4b60-4e0f-8e8c-32e3bf410f8a,0.0,0,0,Faible 🟢
+3f46dde8-2412-46ce-ad5d-eed48bdf735e,0.0,0,0,Faible 🟢
+999c18bb-7c84-422c-93ae-4b6d3da1180f,0.0,0,0,Faible 🟢
+052dcabb-8572-43c5-9e5b-6f5dcb385e25,0.0,0,0,Faible 🟢
+fd038045-b9f2-452b-8aaa-1501946ae5ff,0.0,0,0,Faible 🟢
+9841dff6-ead2-4dc1-8f65-c80b2b1c6b15,0.0,0,0,Faible 🟢
+c17dbfd2-506d-4b5f-8ea3-5f266449f953,0.0,0,0,Faible 🟢
+b0707c8c-f853-40da-81f8-3d90bb2e861a,0.0,0,0,Faible 🟢
+34749307-e222-4eb9-8959-ef2ab9de0e6b,0.0,0,0,Faible 🟢
+86db631b-6b77-4696-99a8-e294b35c872d,0.0,0,0,Faible 🟢
+0438fb2a-715b-4beb-b95d-eee976addba5,0.0,0,0,Faible 🟢
+43d58dff-60f8-462c-8d7e-4bd5e69f0635,0.0,0,0,Faible 🟢
+416da01a-637e-4c2d-a393-8c45f6164be1,0.0,0,0,Faible 🟢
+e131bca1-5364-4ab0-93b5-f2b479518591,0.0,0,0,Faible 🟢
+4ebdd254-d7c6-4b42-adf2-e00231c43c42,0.0,0,0,Faible 🟢
+ae99b503-ac94-4669-a0ea-d44e90e46d8a,0.0,0,0,Faible 🟢
+bb7fc185-f035-4059-b41c-84a255cc56ce,0.0,0,0,Faible 🟢
+bf1708f5-e126-4555-9423-866e3050f6a5,0.0,0,0,Faible 🟢
+206656b4-9f90-4880-9de9-f32931b28e33,0.0,0,0,Faible 🟢
+a698d731-9fe4-4e3e-bb0a-ad125c345be3,0.0,0,0,Faible 🟢
+edf8e1e6-24fb-4828-8c59-f9dbc546bf80,0.0,0,0,Faible 🟢
+cdc76457-437c-49b8-aa70-2d65ce8f01a8,0.0,0,0,Faible 🟢
+f1626798-7a77-411f-92ce-623e2c3e6eae,0.0,0,0,Faible 🟢
+ab364dae-6f23-44fe-853b-a0ec9df04cac,0.0,0,0,Faible 🟢
+b47e3b86-9381-409e-a43e-c7ea42ba03e7,0.0,0,0,Faible 🟢
+7399e53e-6654-4fd2-b3ea-e57b847148a9,0.0,0,0,Faible 🟢
+0f960d75-16be-4eec-83e8-83b5b5029b8f,0.0,0,0,Faible 🟢
+5ac67a39-7bca-4ebc-b507-5859c5233256,0.0,0,0,Faible 🟢
+82ce0ac9-f14b-4d39-bd14-645a97ba8b24,0.0,0,0,Faible 🟢
+36af8fc0-c6d7-44d2-983c-fbe7aa27be53,0.0,0,0,Faible 🟢
+854baf18-76c7-4f2a-bae1-a49077b82813,0.0,0,0,Faible 🟢
+64f874d6-b53f-4065-b348-6a3fc175f8f2,0.0,0,0,Faible 🟢
+49c55bdf-7671-48a5-bf27-064b579ef89c,0.0,0,0,Faible 🟢
+fa2be8a3-f890-43e4-8990-f7c0e3dd5fbe,0.0,0,0,Faible 🟢
+7024e9c7-ebbd-4312-a1ce-8cd47255133d,0.0,0,0,Faible 🟢
+1b201e19-ad14-4b67-95bc-dfefe3eaf596,0.0,0,0,Faible 🟢
+d40562a3-035d-45d0-8aa0-08ff8463088b,0.0,0,0,Faible 🟢
+9fa47a94-e6ca-4dd3-a3b1-054a77d00790,0.0,0,0,Faible 🟢
+c0948b30-ac4a-4f06-873e-b6f094df36e1,0.0,0,0,Faible 🟢
+17abb43a-1e50-4d9e-a968-050e7e0a9f26,0.0,0,0,Faible 🟢
+2e0d6bca-c3ff-441a-bab1-656e39bdc40a,0.0,0,0,Faible 🟢
+5de4af2c-85b1-4a66-ba0e-578aebb97679,0.0,0,0,Faible 🟢
+f88328c2-20a5-4a91-98df-bc1e9fa2a13d,0.0,0,0,Faible 🟢
+8a302b49-5dc8-4e3f-a8c6-89ec38307b91,0.0,0,0,Faible 🟢
+68f2b1f5-67a4-4d4d-80ab-48232aaabf2b,0.0,0,0,Faible 🟢
+23f24fc6-28ca-4ae9-8da8-32d1048f4fc9,0.0,0,0,Faible 🟢
+252a69fd-901f-4dbc-8477-af74147572b6,0.0,0,0,Faible 🟢
+27fa1108-9cb3-4a72-8df7-47c10d394b8a,0.0,0,0,Faible 🟢
+967e3d3c-4024-4150-add1-1452d22c9585,0.0,0,0,Faible 🟢
+542bf80e-12d3-4687-aa1d-8b1a76e951de,0.0,0,0,Faible 🟢
+450f6deb-dcf8-4f7b-897d-e768cf6df7f2,0.0,0,0,Faible 🟢
+21161102-e967-4ecd-9925-4c5e3c8abad5,0.0,0,0,Faible 🟢
+8e436512-b1de-4070-bf0e-6244e1140484,0.0,0,0,Faible 🟢
+fde4555d-9066-4972-bf0c-e9afe8fbb38e,0.0,0,0,Faible 🟢
+4ebee040-85a1-498c-8470-3f6524ea7b8c,0.0,0,0,Faible 🟢
+a6a161bd-0ccb-4f23-9988-38b3b6202787,0.0,0,0,Faible 🟢
+66a4a18c-3242-4ea8-868b-ad46072e30c2,0.0,0,0,Faible 🟢
+46b63af3-82c1-43bd-8578-5ddd34673d58,0.0,0,0,Faible 🟢
+1534d6bd-2b70-4ebe-87b2-3aabef64deb3,0.0,0,0,Faible 🟢
+d6db3313-3ae6-463b-852c-8670a7b6e6bf,0.0,0,0,Faible 🟢
+ae66a971-4898-44bc-90f6-1964a931b1f4,0.0,0,0,Faible 🟢
+ad42698b-df8f-4d16-8812-09a0950c379d,0.0,0,0,Faible 🟢
+f6cfeb42-ba40-444a-84c2-e76f4a5c96cd,0.0,0,0,Faible 🟢
+592e96d9-89e4-4bde-ad5d-3893c841714a,0.0,0,0,Faible 🟢
+f3ed9dda-a4dd-4d78-b711-38f7b71ce190,0.0,0,0,Faible 🟢
+29ae9fb9-b3a4-45be-9baa-fadb98772ba5,0.0,0,0,Faible 🟢
+e1a404a6-bc25-4419-98c9-bcfa7e092721,0.0,0,0,Faible 🟢
+f074932d-2668-437a-860f-c3099a29aa91,0.0,0,0,Faible 🟢
+d6c97bd0-a08f-42eb-a1ec-77f5ff619301,0.0,0,0,Faible 🟢
+468a64bc-e23f-4e40-aa34-23d85e5d1b02,0.0,0,0,Faible 🟢
+8503116d-ea12-4fc8-9437-ef58d16aba0d,0.0,0,0,Faible 🟢
+4736ec1d-38d1-43ac-a09c-baa9b89a4bd1,0.0,0,0,Faible 🟢
+0dd1a5ee-39d0-48cb-b005-71d6e829af63,0.0,0,0,Faible 🟢
+38b80f54-eef9-4be3-9078-9b4d94ef6f01,0.0,0,0,Faible 🟢
+c121b96c-0df2-4f4a-9b5a-bac781dc4d47,0.0,0,0,Faible 🟢
+e3df1cbf-ab08-4c96-b7f3-ba500c0ff217,0.0,0,0,Faible 🟢
+2af483a6-3761-4534-b1dc-35dacf2fb1dd,0.0,0,0,Faible 🟢
+55e8f4a5-ca1a-40ff-8c61-b4b7cfe20038,0.0,0,0,Faible 🟢
+91966f3e-b78d-4ac3-801c-020972310013,0.0,0,0,Faible 🟢
+6c5369ef-40b2-4bd6-a746-5ac9016df87c,0.0,0,0,Faible 🟢
+d6be6f87-a493-47a9-8f2f-c22254f90d54,0.0,0,0,Faible 🟢
+bf032bd4-8611-4f9c-959a-235ca5c603fa,0.0,0,0,Faible 🟢
+3ee243e8-ff7c-4056-9244-b53ee8431a5b,0.0,0,0,Faible 🟢
+536bc766-844f-4393-9196-d41207903980,0.0,0,0,Faible 🟢
+318ec245-7f86-455f-9b99-8fe0f6088657,0.0,0,0,Faible 🟢
+526fd7b8-6f70-4685-b13d-5d4c49c9f945,0.0,0,0,Faible 🟢
+04eee3f3-0fc1-4880-87f9-aae1958499d4,0.0,0,0,Faible 🟢
+25ba013d-5559-4aa8-a526-a61b019ac7c6,0.0,0,0,Faible 🟢
+a2e568e2-a860-4c93-b05e-f05ca6cf9e99,0.0,0,0,Faible 🟢
+7482ef9a-30eb-43bd-93f3-6cb3a363e6aa,0.0,0,0,Faible 🟢
+4465358a-7efd-4282-b5c4-10d36db820c3,0.0,0,0,Faible 🟢
+834e85a2-563e-42ab-bf89-111120e361fe,0.0,0,0,Faible 🟢
+75085a0c-d00d-4506-8658-4e48945ecb9f,0.0,0,0,Faible 🟢
+5b40ff67-33a6-4a8e-8882-9b55abc94c42,0.0,0,0,Faible 🟢
+6f07aac4-a421-4e69-a098-105d343cd58c,0.0,0,0,Faible 🟢
+13c55afc-740b-4f57-b04d-fe97120c3bd4,0.0,0,0,Faible 🟢
+0aff3fed-6bcd-4b49-a153-e6a527e11435,0.0,0,0,Faible 🟢
+0c0f0dc3-0d76-4337-9696-746923037b2f,0.0,0,0,Faible 🟢
+c4d48304-9542-418a-98fe-018a909fd1b9,0.0,0,0,Faible 🟢
+f4bcc384-d34a-42e7-9b1f-f11cc816b214,0.0,0,0,Faible 🟢
+6775c014-2a5e-4a21-8c7f-2e375c36c275,0.0,0,0,Faible 🟢
+543fba5c-dc46-414e-b913-bde50df93a66,0.0,0,0,Faible 🟢
+6260ccc3-b16f-4dc2-a340-b94959d240a4,0.0,0,0,Faible 🟢
+a9f8288e-4c61-4df7-976d-23272f87bed1,0.0,0,0,Faible 🟢
+9800a5e3-c3c7-4649-aea9-3aed92757b68,0.0,0,0,Faible 🟢
+b834760f-5e69-4aaa-ad79-94970eab4c50,0.0,0,0,Faible 🟢
+6ea725f1-6afe-4a9f-aacc-04ed971e66d1,0.0,0,0,Faible 🟢
+696556b8-f66a-4653-a19d-fda43468f675,0.0,0,0,Faible 🟢
+f7b09a82-e4e0-462c-937e-832285eaff92,0.0,0,0,Faible 🟢
+22d15b2b-2c80-466b-bef9-58d71d59fb48,0.0,0,0,Faible 🟢
+aec67b36-adfd-41cd-81bf-fba7e8324798,0.0,0,0,Faible 🟢
+f3f71b4a-3bdb-4631-9b22-9c21d7ac8a79,0.0,0,0,Faible 🟢
+5bcac8ba-6c3c-41cc-8f22-4d37aa063755,0.0,0,0,Faible 🟢
+ce0f245a-490b-4223-a84d-06ca5d16c5cf,0.0,0,0,Faible 🟢
+5199cb28-fa9c-433e-8cef-0b9c57d034c2,0.0,0,0,Faible 🟢
+5621059c-96b2-463c-8840-236e05133870,0.0,0,0,Faible 🟢
+0ea15a3d-c11d-4d90-bf51-eb3ab77246f3,0.0,0,0,Faible 🟢
+65177d7e-64e5-43ff-8bbf-806496631387,0.0,0,0,Faible 🟢
+a1199b93-a187-41aa-bd1b-c68401238a0f,0.0,0,0,Faible 🟢
+4aeb4c28-25e2-46c4-ac6e-26b0ecdfa4b4,0.0,0,0,Faible 🟢
+ad2562a5-895b-4ea6-9488-153512860251,0.0,0,0,Faible 🟢
+0f43e455-7704-44af-81ac-684c54abf673,0.0,0,0,Faible 🟢
+a735c669-0af4-438a-a942-2682134cfb4f,0.0,0,0,Faible 🟢
+4b24b64b-40f7-442f-9a4b-d0daa55f2792,0.0,0,0,Faible 🟢
+03963bcc-b3c0-4350-b898-d2a0c850f22e,0.0,0,0,Faible 🟢
+dd33f947-3cab-4edb-8793-f91d1a82b4f2,0.0,0,0,Faible 🟢
+7e071325-4c66-483d-a81a-32393c7e206e,0.0,0,0,Faible 🟢
+3bc93fcf-48cb-4c29-b6ec-08f01cffff20,0.0,0,0,Faible 🟢
+b021a59c-0aa0-42bc-a48f-57b3b1d80d93,0.0,0,0,Faible 🟢
+4270d7e0-f80a-402e-a1e4-4a2ff26ed33e,0.0,0,0,Faible 🟢
+3ba7edd1-c70b-47e2-aad3-de497c168d7c,0.0,0,0,Faible 🟢
+57432505-2a79-494c-90aa-fa249354f098,0.0,0,0,Faible 🟢
+6d1808b8-9988-4afb-b53c-5428949a7717,0.0,0,0,Faible 🟢
+feb02043-c63d-4341-80f0-7e8384bbc46f,0.0,0,0,Faible 🟢
+fb4db167-966f-4cdc-a23c-11221d56a2b1,0.0,0,0,Faible 🟢
+463f117d-36d9-4cf2-85dc-7401e13890f5,0.0,0,0,Faible 🟢
+13f51c84-44c3-4674-8e2a-1e4835b94f91,0.0,0,0,Faible 🟢
+314a0f1b-551f-4d7e-a517-c5fc1f3b68e2,0.0,0,0,Faible 🟢
+3982dca8-053e-421a-b9c2-b4cc400a47e4,0.0,0,0,Faible 🟢
+4ce9b64e-807d-4dcb-bcd5-3116e2aeec4a,0.0,0,0,Faible 🟢
+fde4b58d-71a8-4605-a62d-4481c798fbaa,0.0,0,0,Faible 🟢
+7312e932-dd14-4aab-86a9-02d2032aa02d,0.0,0,0,Faible 🟢
+9a098714-ce49-4725-b238-806535487add,0.0,0,0,Faible 🟢
+c0919bd9-7113-4b66-860b-87f4409da368,0.0,0,0,Faible 🟢
+6b19221c-4486-40af-baed-ef07e5e8add9,0.0,0,0,Faible 🟢
+7ef51846-f5a7-4ffb-a0f7-187053d74356,0.0,0,0,Faible 🟢
+ddce4c80-5811-4927-b812-7106eebc0e12,0.0,0,0,Faible 🟢
+415a9fdb-b108-4d2f-8fed-96dcf69e173e,0.0,0,0,Faible 🟢
+f18c547c-34a7-48a8-a9da-2f8337ee9027,0.0,0,0,Faible 🟢
+4b208d27-0b0a-453e-9224-30aeaaeefc57,0.0,0,0,Faible 🟢
+ebd0660b-0267-415d-bd30-203143045c8d,0.0,0,0,Faible 🟢
+38a96ec3-58ed-4128-91e5-e5ee45d1590d,0.0,0,0,Faible 🟢
+a72f81ae-4d87-4d7b-9780-f3341e28a1be,0.0,0,0,Faible 🟢
+084fe62c-a2b5-48b9-8ad0-4a1783c57ffb,0.0,0,0,Faible 🟢
+b7aa20e5-abdf-43aa-ae14-733c7c7707b4,0.0,0,0,Faible 🟢
+23e1a3cf-6c07-4897-826b-3e7c34bef1f2,0.0,0,0,Faible 🟢
+492c223c-92ab-402d-8722-af378726e764,0.0,0,0,Faible 🟢
+a55c060b-0fd2-408f-8eb3-f9703f491fb6,0.0,0,0,Faible 🟢
+d87dc9b9-f293-40c0-8fd1-c7d574a72212,0.0,0,0,Faible 🟢
+5d557226-bd74-4620-b61f-bcecc29f0b9a,0.0,0,0,Faible 🟢
+9f4c385e-2481-4638-aeeb-c43eae4aa176,0.0,0,0,Faible 🟢
+694a4b91-e98a-419f-8d5e-fcccd909c8aa,0.0,0,0,Faible 🟢
+43dd9bab-170d-4644-8250-c3d5b39d45c0,0.0,0,0,Faible 🟢
+9504d588-ae58-4cc1-b08c-8d9463352181,0.0,0,0,Faible 🟢
+ebce6ca3-d4cb-4206-b4ef-9cb6e4de6bbf,0.0,0,0,Faible 🟢
+738a1ce2-ebfd-44de-ac35-fd36061b1dfd,0.0,0,0,Faible 🟢
+b520134c-38ec-4c28-aac7-1dbc1760da83,0.0,0,0,Faible 🟢
+cc2c3808-a724-4b7b-b7d5-10b41cd6f5d8,0.0,0,0,Faible 🟢
+30d09aa6-bfd2-4c9e-9418-ab6d1fcd30af,0.0,0,0,Faible 🟢
+38d9c6ee-27cd-4cba-bde5-be695dcd02c5,0.0,0,0,Faible 🟢
+a56761bf-658c-42cb-9ed4-af6c52714e59,0.0,0,0,Faible 🟢
+0df2a6c3-1f97-4ffb-94a5-13bd2c08cbd5,0.0,0,0,Faible 🟢
+d394af0c-ca03-479e-8aa5-4fa5aa1540d6,0.0,0,0,Faible 🟢
+21dc37e2-763e-4dde-a210-ee92049b8091,0.0,0,0,Faible 🟢
+cd7effc7-29de-4825-b828-c4838828b837,0.0,0,0,Faible 🟢
+93e70bf9-830e-44be-9f00-848a9e145ef2,0.0,0,0,Faible 🟢
+d3875522-04b0-4caf-9db5-7c1491a5f458,0.0,0,0,Faible 🟢
+95ba29c8-4801-4aaa-9f74-334b3df09fae,0.0,0,0,Faible 🟢
+560b29ef-4b16-4031-a60d-f793e3c9ca25,0.0,0,0,Faible 🟢
+c6de4641-bbee-42bc-ba5c-7a88ac684147,0.0,0,0,Faible 🟢
+3cf42d05-6d03-4e8e-876d-ad4e334cacd6,0.0,0,0,Faible 🟢
+39cd3992-cfc2-4396-b7c3-aa2956d68ffb,0.0,0,0,Faible 🟢
+5544f865-e779-4b32-9943-12f1b85187e8,0.0,0,0,Faible 🟢
+e4e725db-7f4b-40a7-9d13-a93b2061604d,0.0,0,0,Faible 🟢
+ce331f32-0557-4b56-b791-2e437191a8bd,0.0,0,0,Faible 🟢
+d166ab4e-1d8c-44db-9544-7a4c61ebf990,0.0,0,0,Faible 🟢
+b7e4bad2-a971-4978-ba62-22f60609c47d,0.0,0,0,Faible 🟢
+5a8624e8-a150-4a6d-9d53-d185a5e16b10,0.0,0,0,Faible 🟢
+d6c3e388-7667-4e05-bcea-89e523eb2808,0.0,0,0,Faible 🟢
+06e93f5a-5ceb-4178-b38e-35827c7e6076,0.0,0,0,Faible 🟢
+8b768f2c-d536-47a6-b585-84a95a6941a9,0.0,0,0,Faible 🟢
+cc9f7f30-91fa-4c5d-b29e-0d10328e5c45,0.0,0,0,Faible 🟢
+8ac0a6ce-e892-4621-980e-d4652e78e98a,0.0,0,0,Faible 🟢
+f3155e7c-efb6-415d-a4e2-b61ac40ded6f,0.0,0,0,Faible 🟢
+f70809da-2f61-4d52-9b84-37c5276ef764,0.0,0,0,Faible 🟢
+c8fcb580-5df0-4658-8e5c-598c0933fb02,0.0,0,0,Faible 🟢
+8e0aa570-b71d-48cf-8042-0b4d3fd5b649,0.0,0,0,Faible 🟢
+2db7ce98-6545-4134-92b8-1b85837d8955,0.0,0,0,Faible 🟢
+b379382c-7979-4b13-8c31-aa293bdee5ea,0.0,0,0,Faible 🟢
+5e2ef45b-012a-4938-9bb7-f7d1365d1a91,0.0,0,0,Faible 🟢
+02e0f838-ff9d-4ff3-b8d0-23f8d47a3765,0.0,0,0,Faible 🟢
+f6f3b3c9-ba8e-4ae7-85d0-b76aaea91c4c,0.0,0,0,Faible 🟢
+dbb1a128-4b87-4b13-badb-8fbc51c656a9,0.0,0,0,Faible 🟢
+fb405521-40ae-45e7-bfc0-6b720d2e462a,0.0,0,0,Faible 🟢
+fc97e4ab-0212-4e76-91f8-535378bb2c42,0.0,0,0,Faible 🟢
+4a3fc02f-61a6-441b-9298-058720b80ad8,0.0,0,0,Faible 🟢
+18019901-fc3b-49b3-be61-f6c8d32dceac,0.0,0,0,Faible 🟢
+e6cdbd78-9a3f-4879-822e-7ef154c92262,0.0,0,0,Faible 🟢
+e2b95fe1-51ca-41ea-82b3-5656209c94c4,0.0,0,0,Faible 🟢
+f2fd6be2-3e6d-48e7-9572-2dbc92470fbd,0.0,0,0,Faible 🟢
+4973345a-4cbb-4ab7-aa43-1bc7d0f9d9a2,0.0,0,0,Faible 🟢
+9042b52b-b956-4b64-8e09-7b4509bee18e,0.0,0,0,Faible 🟢
+f7ea529e-90a3-4d3a-ba65-b650a5a5dba5,0.0,0,0,Faible 🟢
+60aa98b2-8e2e-4e7a-a252-468be24a93c4,0.0,0,0,Faible 🟢
+146fda2f-884c-4f4b-a525-130f7e70c23c,0.0,0,0,Faible 🟢
+0f9e0f5a-172f-4f90-810c-649f5694a92c,0.0,0,0,Faible 🟢
+46585bfc-666e-4e82-aefc-97808ab7af0d,0.0,0,0,Faible 🟢
+f93c5e50-716f-4193-b72e-487345a9adbb,0.0,0,0,Faible 🟢
+77fb29e9-e4b1-493f-85a2-215da4ba7550,0.0,0,0,Faible 🟢
+0758810f-33bb-4f38-b2b7-1c552ab48952,0.0,0,0,Faible 🟢
+d2a8e055-ad1f-46db-81d9-2745fdde341b,0.0,0,0,Faible 🟢
+f6ddc8b9-4011-4199-849a-65c0230d4363,0.0,0,0,Faible 🟢
+9710b540-6bb8-4357-acd4-faef47dde620,0.0,0,0,Faible 🟢
+11c8c7c0-b6ae-4041-8a9d-94cf2d1f713c,0.0,0,0,Faible 🟢
+edb417fe-3012-4869-aa51-b7d8aede61b7,0.0,0,0,Faible 🟢
+0b7ed55b-fd66-4d5c-b07f-89de9388f83e,0.0,0,0,Faible 🟢
+65e934a0-df48-462a-92da-422192d805aa,0.0,0,0,Faible 🟢
+6e5fe103-2f66-4ae7-88ae-5434b5be969a,0.0,0,0,Faible 🟢
+138639c8-09b5-4108-a127-b949ef8ce72f,0.0,0,0,Faible 🟢
+779070bf-acee-4c1f-965b-304de2b63da4,0.0,0,0,Faible 🟢
+5e70b6e9-29dd-47f0-84b7-79c472524c43,0.0,0,0,Faible 🟢
+2bcdec46-f53b-4b7f-94bc-16e1b7b67d54,0.0,0,0,Faible 🟢
+6bb80d06-07a6-4fcc-b5ff-9f96674d387a,0.0,0,0,Faible 🟢
+8b80f18e-0a54-460c-b766-02b777145e53,0.0,0,0,Faible 🟢
+ab38f0e1-a92b-4d66-9b51-2393689b54e7,0.0,0,0,Faible 🟢
+f4804a2f-bf94-4d6d-9f28-0c33a47e6094,0.0,0,0,Faible 🟢
+7aad9351-7904-46e9-8466-3782a9de6a8d,0.0,0,0,Faible 🟢
+9febbde7-a190-425b-a566-fde405b164e6,0.0,0,0,Faible 🟢
+b8ff797b-19f0-47ca-bdeb-b356a42bf856,0.0,0,0,Faible 🟢
+252f58f4-45f7-4c28-bb79-a27a2b2dea86,0.0,0,0,Faible 🟢
+ecdc25e8-cc22-4a24-9a77-e57358cb4d6c,0.0,0,0,Faible 🟢
+442847fd-8780-486f-bde0-76a697c39421,0.0,0,0,Faible 🟢
+0462efa6-d58f-4863-9e2c-f4206ac9787a,0.0,0,0,Faible 🟢
+eda0ce70-6859-41cd-a397-ef966b9a3de9,0.0,0,0,Faible 🟢
+b08110bb-9c22-4aeb-a2af-25a663093864,0.0,0,0,Faible 🟢
+73a16e41-5950-4e60-b602-e32cc97dca3c,0.0,0,0,Faible 🟢
+08006a7e-1617-4a3c-8c63-f62bc972e805,0.0,0,0,Faible 🟢
+2c8a0632-3d80-4cd7-bc3e-559b194da866,0.0,0,0,Faible 🟢
+908b8c3d-cfaf-4203-ba41-b5442bb35662,0.0,0,0,Faible 🟢
+21896d83-b460-4607-b20e-9a611c9b9b57,0.0,0,0,Faible 🟢
+35f4bfe9-bb1e-4b50-82ac-ddaaddb67cf2,0.0,0,0,Faible 🟢
+2650d3d5-7151-485d-9ca2-e1e22295d5c8,0.0,0,0,Faible 🟢
+cbd04e76-c976-4087-aea7-2bd2993cdfec,0.0,0,0,Faible 🟢
+c8678479-b4e6-4e25-b9f1-19413ca6fa64,0.0,0,0,Faible 🟢
+d4e02803-219d-434f-bc55-56529c22e910,0.0,0,0,Faible 🟢
+84975ef5-a23c-4df0-a218-ff7aed03846c,0.0,0,0,Faible 🟢
+eb5554dc-b60c-4212-b797-dca8fb674ff0,0.0,0,0,Faible 🟢
+cf2b6041-8d50-4ca8-b898-e0f13f5a94d6,0.0,0,0,Faible 🟢
+6ff5b593-a2ef-4f76-9e95-1a94521e4d06,0.0,0,0,Faible 🟢
+5373e996-3a78-453c-b973-b9a6625b5889,0.0,0,0,Faible 🟢
+67a274d6-8222-4d9d-ab7a-6230f69b56ff,0.0,0,0,Faible 🟢
+37025a36-0559-4cdb-94fc-fb882e462c87,0.0,0,0,Faible 🟢
+8a33c7f4-bb1d-4194-95e6-a64bec73a013,0.0,0,0,Faible 🟢
+8b742ff8-0751-47e1-bd5b-c568440674fa,0.0,0,0,Faible 🟢
+df51194b-d020-4123-a2e2-214e2549c8bb,0.0,0,0,Faible 🟢
+4b17797d-be5c-4af0-adb8-63f2a5cf38bb,0.0,0,0,Faible 🟢
+2639c486-895d-43e5-8f63-1ee4c4ef908d,0.0,0,0,Faible 🟢
+94aba4a9-4f94-445c-8ecf-21bc496599ca,0.0,0,0,Faible 🟢
+a56dd45f-8f4c-483f-8422-651fcee543dd,0.0,0,0,Faible 🟢
+f8a3713f-04f2-4817-aaa6-ebf593d5de66,0.0,0,0,Faible 🟢
+188db1ae-4b2f-414f-b5ac-0cc2b174f55e,0.0,0,0,Faible 🟢
+0f4365ad-a301-49d3-9638-af2df69cad9c,0.0,0,0,Faible 🟢
+44cb24f0-181a-4e4e-9eac-ada3b1306540,0.0,0,0,Faible 🟢
+79e244e2-33e5-497a-8648-907180eeb6f7,0.0,0,0,Faible 🟢
+06750fd6-f255-4391-912e-19a141dcf399,0.0,0,0,Faible 🟢
+d00434f8-e1bc-4698-bd0a-9d8cb877f183,0.0,0,0,Faible 🟢
+fcb85d5c-0e27-4f7f-b47a-7c17d2a79b70,0.0,0,0,Faible 🟢
+5fad4ce8-2370-4606-ab8b-65bda87f3e78,0.0,0,0,Faible 🟢
+6f769392-4940-4fd1-abe6-a27a5c9344be,0.0,0,0,Faible 🟢
+73934e0c-ef5d-4140-a414-565bb87c20c9,0.0,0,0,Faible 🟢
+e41a54c1-933a-45b5-b800-e71212be8505,0.0,0,0,Faible 🟢
+e17fd3c3-c96c-4554-8363-3caedb4b9ca9,0.0,0,0,Faible 🟢
+22005a77-5413-4c40-af82-d826125458f2,0.0,0,0,Faible 🟢
+f07e97a2-878f-4f4b-97d8-7bd5013adbc5,0.0,0,0,Faible 🟢
+6c1c9816-7ece-4bff-83b6-2b63959bac4c,0.0,0,0,Faible 🟢
+b1c029ec-56e3-48ac-af3f-db4be18fb922,0.0,0,0,Faible 🟢
+76f8eb69-ba8a-4252-acdd-66f9b79fde29,0.0,0,0,Faible 🟢
+7fbf856d-5daa-401d-a965-6d7903860c8c,0.0,0,0,Faible 🟢
+468823d1-219f-4a9d-a8b1-892c792a311b,0.0,0,0,Faible 🟢
+b402d6d5-1f45-4a65-b394-390c8b1f7740,0.0,0,0,Faible 🟢
+b7c08f16-8352-4bf6-9b1d-e48f970c5460,0.0,0,0,Faible 🟢
+6557d650-1cc4-4bc6-8426-03df4ad755d9,0.0,0,0,Faible 🟢
+cd791516-6429-41ea-8479-b836d8f3947e,0.0,0,0,Faible 🟢
+16c921f5-b452-431c-bfb5-bc321d0c8d8c,0.0,0,0,Faible 🟢
+e71c0a44-b906-4682-b470-6b31e4f8691f,0.0,0,0,Faible 🟢
+e517db9e-85b9-4500-8638-78fdead35a1e,0.0,0,0,Faible 🟢
+d3b128e2-d3a7-412d-93b2-d9811780fee6,0.0,0,0,Faible 🟢
+8614144c-de4e-4f6b-8ebd-0a9fb920d59c,0.0,0,0,Faible 🟢
+0f9d15fb-0530-45e8-8fc2-ea160b51c0d4,0.0,0,0,Faible 🟢
+be16a4cd-640a-46d2-8d51-9c51af6f1d41,0.0,0,0,Faible 🟢
+9e3349cb-6f5e-4261-b476-d9870b72a682,0.0,0,0,Faible 🟢
+3d9560be-ebf7-42c7-936b-7f7efa0a89fe,0.0,0,0,Faible 🟢
+33385eed-a66d-42b2-88d5-c0f8a1502b6a,0.0,0,0,Faible 🟢
+97188dda-5ac8-4d00-bdea-889d56f837ad,0.0,0,0,Faible 🟢
+b647f7b1-7597-4310-8176-4b24d903eec3,0.0,0,0,Faible 🟢
+1bd6f5ff-2f44-4db8-83cb-b0abba88575f,0.0,0,0,Faible 🟢
+0ce052fa-e4c8-4c95-9a36-d59d42b313e3,0.0,0,0,Faible 🟢
+303d4d6c-f080-42c0-9c53-b37306fb9408,0.0,0,0,Faible 🟢
+c3d9158b-f43d-4c6b-82cc-a36b958ac998,0.0,0,0,Faible 🟢
+9af7b150-4c2a-4caf-8f16-229cbced21c7,0.0,0,0,Faible 🟢
+d38608e5-baf2-48c1-bcde-14609ae80032,0.0,0,0,Faible 🟢
+7d4f49f4-161b-48bd-8477-cebc197471bc,0.0,0,0,Faible 🟢
+2cddf004-5a82-438a-bf4d-cac8b1bf90ea,0.0,0,0,Faible 🟢
+d254d13f-9318-46d9-a653-175d6dd120c0,0.0,0,0,Faible 🟢
+cf60db07-c110-4e30-be32-f8bc02cf0300,0.0,0,0,Faible 🟢
+2a8be8b8-a647-45ac-a2f8-0fc5a3f70a1c,0.0,0,0,Faible 🟢
+1e259b97-de9c-4ac5-834e-a937fe71723a,0.0,0,0,Faible 🟢
+a090bcaf-9405-4e99-99ff-376795e365e1,0.0,0,0,Faible 🟢
+1f34c1b5-e243-41e1-a8c3-6a6e00fb8f56,0.0,0,0,Faible 🟢
+27a510b9-b3ce-4c83-bb48-dab3422ec7da,0.0,0,0,Faible 🟢
+f0df9a6b-09fd-4585-8f74-dc5abe889505,0.0,0,0,Faible 🟢
+3fa840d1-b725-47be-91f6-5a20a51ee805,0.0,0,0,Faible 🟢
+11b3cb6a-572e-43c1-867e-28fd976b67c9,0.0,0,0,Faible 🟢
+200e44fe-6c7f-4ea1-bf67-ad2df44291ae,0.0,0,0,Faible 🟢
+32cbfe07-4b2e-44f3-b7c9-b051361494b4,0.0,0,0,Faible 🟢
+f51bab8d-be8b-4b2e-8ee9-c8e88fd14bfe,0.0,0,0,Faible 🟢
+45fca24f-4d0b-4b9b-a5be-517ef741e6a7,0.0,0,0,Faible 🟢
+60fc2156-fe99-448d-9f04-ea77aab7571e,0.0,0,0,Faible 🟢
+68afe260-b6d5-4db4-9e5a-f7ad952f1f36,0.0,0,0,Faible 🟢
+9d4fdc42-4948-42ac-a952-0fe640cb619b,0.0,0,0,Faible 🟢
+b4d610f8-fafd-4a57-8493-ee8bfe36f0ce,0.0,0,0,Faible 🟢
+3a7cc19a-2e11-413e-ab23-f10e79a6598f,0.0,0,0,Faible 🟢
+46d21669-6d31-4a70-ad03-f5bec484a334,0.0,0,0,Faible 🟢
+479510a8-f020-40fd-8a6a-7ec30fca07fe,0.0,0,0,Faible 🟢
+4315382b-3678-4afc-9965-50255989f186,0.0,0,0,Faible 🟢
+431fefc9-5cd8-421c-95f1-349f7ffbc135,0.0,0,0,Faible 🟢
+499f9c9d-31cb-4907-a66f-fb7b6e9c2c67,0.0,0,0,Faible 🟢
+04e1b0ef-676b-4e1e-a1e0-0e9a7fc3c708,0.0,0,0,Faible 🟢
+21955a74-51e2-4883-b306-d8ffb6a8bc94,0.0,0,0,Faible 🟢
+dd5563a8-fe59-48c1-942e-24f4d9b6a81c,0.0,0,0,Faible 🟢
+77346be0-b307-474f-9142-e9d7ed41e7a6,0.0,0,0,Faible 🟢
+04ffd8eb-49b7-44aa-8ed2-6a8861763a0c,0.0,0,0,Faible 🟢
+44a86941-af6b-476f-bef6-5b06f93d51ab,0.0,0,0,Faible 🟢
+0c9635ed-3aed-4939-94d7-4e84b10ce15a,0.0,0,0,Faible 🟢
+b6e1898c-f6b3-433e-9c2d-bc67bc940d58,0.0,0,0,Faible 🟢
+cfae27dd-0a1d-4352-96ef-b8f2d9646720,0.0,0,0,Faible 🟢
+47f8005a-cccf-4987-8d9d-b32fb5e43327,0.0,0,0,Faible 🟢
+9f3ca25f-528f-4e5d-b527-a068b41c458d,0.0,0,0,Faible 🟢
+c35d9643-f2d8-4b6c-b205-8bb9a16e57a7,0.0,0,0,Faible 🟢
+6c1e5d0d-d82b-44ad-af56-b1111a01f50e,0.0,0,0,Faible 🟢
+78ed2c12-54b8-4cf9-92bf-58d738da74c8,0.0,0,0,Faible 🟢
+1da91228-a4fe-49aa-a316-40ff8b34c0a2,0.0,0,0,Faible 🟢
+a3ff08c4-8eb4-402e-a45a-9eb7c60a79a2,0.0,0,0,Faible 🟢
+760412c7-e1e6-484d-992f-5709b2ad83b5,0.0,0,0,Faible 🟢
+aaf1282f-d567-43fd-8add-a182f9be1dc6,0.0,0,0,Faible 🟢
+4031b8d2-a8a6-4856-b4ed-d72ed91b2a9c,0.0,0,0,Faible 🟢
+d70edf54-941b-4b9c-b2f8-c98ce7c7d6d7,0.0,0,0,Faible 🟢
+dcec3b83-6a30-4c45-a210-98560a598464,0.0,0,0,Faible 🟢
+d6293f58-6205-4b0a-8d39-5f676f27d5d3,0.0,0,0,Faible 🟢
+cc052b1a-88c1-47ab-8497-73c0eea9b323,0.0,0,0,Faible 🟢
+1c2b2101-2771-4f4d-bddf-ee11834ab9e6,0.0,0,0,Faible 🟢
+3da4f109-4d09-4da1-8a2e-15013efa1691,0.0,0,0,Faible 🟢
+40a22a36-c569-464a-a667-60ea83fb84f8,0.0,0,0,Faible 🟢
+5ff5d2b2-68df-417d-b928-92ec03b4deb8,0.0,0,0,Faible 🟢
+3f3d8d1b-2da8-4482-bc0f-c506110e4c15,0.0,0,0,Faible 🟢
+af5c9882-de59-403e-a370-4892a25142a2,0.0,0,0,Faible 🟢
+c4140238-8a48-4aa5-bb79-b6111a30774c,0.0,0,0,Faible 🟢
+385334b0-e1f6-497b-860a-9d981da214f1,0.0,0,0,Faible 🟢
+ca1aced6-490e-49fc-b44d-26b65eb539eb,0.0,0,0,Faible 🟢
+8ba98e8d-fb5f-4879-8325-3243a39f38b3,0.0,0,0,Faible 🟢
+35c93cbf-1315-4847-afb3-3f70d23c5225,0.0,0,0,Faible 🟢
+ee368f92-4104-4db9-9a44-d7ba80f760f9,0.0,0,0,Faible 🟢
+926c99df-abd1-485f-b59f-81aea2b7a91f,0.0,0,0,Faible 🟢
+518329be-b7f0-4415-9608-8f442cd7a6c7,0.0,0,0,Faible 🟢
+b3d7ce62-dfe2-45d0-87ba-5556730f2d3b,0.0,0,0,Faible 🟢
+83a7bbc4-34b0-43ae-b8d0-1bcf698b5383,0.0,0,0,Faible 🟢
+b6cf3732-5d53-497c-9eaa-baafbfd1d8e3,0.0,0,0,Faible 🟢
+957316c4-2bd0-45b6-9471-a2ea1269d8f4,0.0,0,0,Faible 🟢
+08b15bed-144c-42cd-9b29-b6b8992f8fa0,0.0,0,0,Faible 🟢
+47ef58ac-85d5-4552-94c8-fbbe84fbb87e,0.0,0,0,Faible 🟢
+5bcf7cbb-9d2d-4042-9b5b-0fad96107eb1,0.0,0,0,Faible 🟢
+c0480cb7-97f2-49b0-a16e-4ff8c3acc356,0.0,0,0,Faible 🟢
+6585a57f-6cba-49b2-a4e9-6899e44000e1,0.0,0,0,Faible 🟢
+e87f3e9c-4dbc-41d4-88b6-fce51ba61c9a,0.0,0,0,Faible 🟢
+2e7e2c38-dfa3-4433-ba8c-5f64f9fd0fb1,0.0,0,0,Faible 🟢
+582eb8b1-a7f7-4a02-b997-05da91a7825f,0.0,0,0,Faible 🟢
+91f1cbbc-fdcf-4aef-a299-0f5c2b35efb2,0.0,0,0,Faible 🟢
+30c7e621-94a7-416a-967c-dae025a5c2e6,0.0,0,0,Faible 🟢
+56815210-227d-4285-8dd1-c13dab8d87c6,0.0,0,0,Faible 🟢
+2a6cc4db-b3bb-4ba5-b8ec-d05c6faed9d2,0.0,0,0,Faible 🟢
+3fd92b93-1c9f-4571-9182-4e58830a4f35,0.0,0,0,Faible 🟢
+8683e8f6-4070-4551-a7f5-147f31947db7,0.0,0,0,Faible 🟢
+9663c98b-344a-480a-a1e7-f370bf597588,0.0,0,0,Faible 🟢
+4250c88c-4b43-4486-a12e-6a254ab59ddc,0.0,0,0,Faible 🟢
+0a2e4e03-6287-48a1-9246-60ca0ec7c841,0.0,0,0,Faible 🟢
+a4574fb0-993c-4deb-bc7f-825c02b628f4,0.0,0,0,Faible 🟢
+ee8f06da-b19e-40fe-9f6c-a16c933691e4,0.0,0,0,Faible 🟢
+5b59354c-f9f0-4631-a120-d8bb23ad25df,0.0,0,0,Faible 🟢
+7464e0d1-dd74-43c4-a30d-482e447fcbda,0.0,0,0,Faible 🟢
+38e5fd98-6628-4e7b-8524-4843bf322f90,0.0,0,0,Faible 🟢
+ddcc4953-aaa5-4a21-8ce3-02eeadd02171,0.0,0,0,Faible 🟢
+95a75b74-1be8-4fce-b20c-0dcf3b306feb,0.0,0,0,Faible 🟢
+8ad3e2d0-2784-4572-8a31-f64d48bf6df7,0.0,0,0,Faible 🟢
+753950d7-cf1c-4ad2-b578-3f2206759264,0.0,0,0,Faible 🟢
+ef0da689-35ba-4e55-b95a-b866212ed660,0.0,0,0,Faible 🟢
+a1145fbb-b976-4b76-9e35-7f5368b52272,0.0,0,0,Faible 🟢
+2a71d17c-069e-4a75-8bdc-7c3c34eea426,0.0,0,0,Faible 🟢
+efda3bc2-f85d-4d27-8e7d-95ab1a16b884,0.0,0,0,Faible 🟢
+4a3d777c-2f78-4eef-b5f8-a2247b583bc8,0.0,0,0,Faible 🟢
+94556e7b-c5a5-4231-98fc-7887832b9f19,0.0,0,0,Faible 🟢
+36bc62c2-92c0-4835-bc23-0f160d213fc7,0.0,0,0,Faible 🟢
+f3cd3424-526d-4f0e-a169-bfb6a52e61a4,0.0,0,0,Faible 🟢
+7edd5a54-a2e4-48a6-9ff5-fe9d753dc6fe,0.0,0,0,Faible 🟢
+cfafcba6-e011-446a-a149-a43ff6f0412c,0.0,0,0,Faible 🟢
+eb144d9f-4c69-4c73-86dd-7355947b971d,0.0,0,0,Faible 🟢
+e693fe65-0bd0-4067-a38d-c89a91181ed4,0.0,0,0,Faible 🟢
+ae300731-47b3-4597-9116-bffe588774df,0.0,0,0,Faible 🟢
+0f31de9e-48b1-4555-9bdc-43848abb810e,0.0,0,0,Faible 🟢
+4159a8cf-c828-4c43-92b6-ac8ef81348f4,0.0,0,0,Faible 🟢
+ba46a22c-dbe2-4738-921a-d6443cfc3358,0.0,0,0,Faible 🟢
+fb760a95-5561-4d4d-88b6-7daa6f36ea57,0.0,0,0,Faible 🟢
+64e95760-3032-4a30-8ded-792cc08f9176,0.0,0,0,Faible 🟢
+785f5fc1-1310-45b3-bd48-9ddee136e4e4,0.0,0,0,Faible 🟢
+68e7ef16-4b81-4776-8e3b-525ffafb58a5,0.0,0,0,Faible 🟢
+df9c3a2a-94cd-41ec-a610-e14d70b48602,0.0,0,0,Faible 🟢
+65ffbbdc-9268-40bc-8d91-23f73ea291bb,0.0,0,0,Faible 🟢
+9308ff39-11db-4f45-9cff-cb58fbd4ce8e,0.0,0,0,Faible 🟢
+62869545-33c2-4db5-98a5-f2aff5374abf,0.0,0,0,Faible 🟢
+5d2bab82-c701-4e41-8890-1b54d70231b7,0.0,0,0,Faible 🟢
+f5943a29-1720-49db-927a-cfcec1098888,0.0,0,0,Faible 🟢
+13d7ccce-1f6a-441f-8116-c5ae3f20c267,0.0,0,0,Faible 🟢
+36ee778c-af06-4934-8a34-7e546bf15942,0.0,0,0,Faible 🟢
+b14bb1db-64d2-4b04-9f6a-f5dd89d7da13,0.0,0,0,Faible 🟢
+966bba31-3dde-4524-a5ce-9d5fc1429ad4,0.0,0,0,Faible 🟢
+6bbb0cb1-452c-4832-ae98-687c40220d95,0.0,0,0,Faible 🟢
+fd5da8ff-f33e-45eb-a34f-fefcf3f6aca3,0.0,0,0,Faible 🟢
+e376c922-dcfc-4b12-abb1-626b8733897a,0.0,0,0,Faible 🟢
+d47477d8-8e9c-4bc4-a4b0-81763b886d83,0.0,0,0,Faible 🟢
+b5d093b7-2c6c-4c52-96ab-f52b5ce17476,0.0,0,0,Faible 🟢
+e0dd6e73-1ba5-46e4-ac9a-87e9cb481335,0.0,0,0,Faible 🟢
+061c0cb0-ee77-4ebb-8107-b018a7583463,0.0,0,0,Faible 🟢
+92a1df0c-1cc7-4f9f-a2c4-746dd59b1cf8,0.0,0,0,Faible 🟢
+9fd263c1-e919-4dce-86b6-b3c4a6f2415a,0.0,0,0,Faible 🟢
+fb3e2d44-6e3b-4a47-8bfd-0e982aa0ccde,0.0,0,0,Faible 🟢
+b871e7c0-3bc1-4364-829e-99c688557dfe,0.0,0,0,Faible 🟢
+28d73944-fdb5-4d5d-bdeb-2fbd67c7b4b4,0.0,0,0,Faible 🟢
+b81a0f87-e6a6-4bdb-9307-bca34d4684d3,0.0,0,0,Faible 🟢
+d9b2b15a-664c-4b56-afaa-609b77791a72,0.0,0,0,Faible 🟢
+a7724062-d430-4ae1-a9bb-0ea64451c8c2,0.0,0,0,Faible 🟢
+d749ccd7-feb5-42bd-acbe-961484c9ac10,0.0,0,0,Faible 🟢
+6bec7cf8-3c2c-4eb1-9bc6-f10a5bc0dde8,0.0,0,0,Faible 🟢
+28bf2d83-9a16-444c-a183-ed3b9c752327,0.0,0,0,Faible 🟢
+897faab3-205c-4886-922f-c054be839a75,0.0,0,0,Faible 🟢
+cc0440bc-8dc0-46d0-b000-30045c3690f3,0.0,0,0,Faible 🟢
+822003ac-be78-4616-bb71-8a673b22a539,0.0,0,0,Faible 🟢
+40270c21-bcc7-4832-93cf-f17728180b5e,0.0,0,0,Faible 🟢
+3877ea2a-3955-460d-b1d5-2f6cbfc2449b,0.0,0,0,Faible 🟢
+9cb6e2b7-9beb-421b-956a-01367381168c,0.0,0,0,Faible 🟢
+ad428e18-fd92-4b7e-9bba-4051dd9091de,0.0,0,0,Faible 🟢
+09761608-aff6-4e69-b848-2c1316b6425a,0.0,0,0,Faible 🟢
+3abf2cf3-abda-4b2a-a1b6-68e558805985,0.0,0,0,Faible 🟢
+625c768d-9d39-4266-9152-29683dac9211,0.0,0,0,Faible 🟢
+a3e48bb3-6d77-4367-8486-2163f4bdefea,0.0,0,0,Faible 🟢
+c5947d97-b218-457c-802b-5bf823958acc,0.0,0,0,Faible 🟢
+469f2498-2dbb-40ec-bac8-9c5cb4ea9c8f,0.0,0,0,Faible 🟢
+3b982e40-2913-4481-b54e-5816228a9b70,0.0,0,0,Faible 🟢
+73906158-f338-4542-b715-6e892b28e276,0.0,0,0,Faible 🟢
+6fece091-83d3-4056-84f8-559461e058c1,0.0,0,0,Faible 🟢
+583f01d2-0953-4884-9e3e-57ccf5bd166d,0.0,0,0,Faible 🟢
+0da4f2cf-10d7-4969-8748-2ec67caacf99,0.0,0,0,Faible 🟢
+91fbb8c1-c7c5-4e40-a45c-b975e8069d32,0.0,0,0,Faible 🟢
+2ae5e610-8a1a-49db-8962-5aa0b9c800b2,0.0,0,0,Faible 🟢
+672d624e-8ed4-45bb-9b37-1671f412a382,0.0,0,0,Faible 🟢
+c24a8f44-8572-4ac2-bdca-52b127db91bc,0.0,0,0,Faible 🟢
+d7549f63-003f-4225-8ad8-5fc3240b1655,0.0,0,0,Faible 🟢
+17e76792-bf20-4791-b75d-ef177200d531,0.0,0,0,Faible 🟢
+51c5e68a-a000-4f6e-9e16-dea4850e9d78,0.0,0,0,Faible 🟢
+838dfef0-4b2d-4072-a75b-80dcc86a1e2a,0.0,0,0,Faible 🟢
+25d3412a-31dc-42e0-95d6-5d3fb2d91a62,0.0,0,0,Faible 🟢
+3bcaca24-867a-49ec-a18f-3288216086e2,0.0,0,0,Faible 🟢
+3b0c9d6e-8588-41f4-a49f-bcd41ddc48fa,0.0,0,0,Faible 🟢
+f5c3e967-8f34-4b49-83cf-7819785e9cb4,0.0,0,0,Faible 🟢
+eda803ab-5e3f-4ab4-84cc-b9f10575f9d4,0.0,0,0,Faible 🟢
+afe9809e-900f-4fed-87b2-14ed704df526,0.0,0,0,Faible 🟢
+a6bed987-0f7e-4908-b729-27065c0e7edb,0.0,0,0,Faible 🟢
+729e7614-74b3-4d1e-8c93-0d5664834a27,0.0,0,0,Faible 🟢
+eea450d7-8e9c-4816-8d21-5df458d22233,0.0,0,0,Faible 🟢
+c744d009-c845-48fb-aa3a-84ab7c1981b4,0.0,0,0,Faible 🟢
+59146dce-d220-4b94-bdf1-f2b1e3aaea70,0.0,0,0,Faible 🟢
+8745347a-be9f-4eed-996c-2d73696ef432,0.0,0,0,Faible 🟢
+95067914-ef1f-4e09-9f94-1514c2ae14cc,0.0,0,0,Faible 🟢
+90a05b9b-4d82-495d-93aa-7bbc8366d205,0.0,0,0,Faible 🟢
+253bcee9-62e7-483c-ab2e-2cadb72af58a,0.0,0,0,Faible 🟢
+435fb956-88ee-4cc9-b1de-3ee0c2c70ce5,0.0,0,0,Faible 🟢
+d1242c1e-9901-48fe-b3ae-d1d1b9cc60f3,0.0,0,0,Faible 🟢
+f659e69a-2471-4f3c-9865-be0952919d7b,0.0,0,0,Faible 🟢
+0ec71085-ea8b-41a8-9598-b2bca8fe9df3,0.0,0,0,Faible 🟢
+364d394d-1270-43f7-9197-a0499af60bf5,0.0,0,0,Faible 🟢
+8c54d882-2fa8-40ca-9fd5-cf6a3ce9d29e,0.0,0,0,Faible 🟢
+d83786f3-e0a0-43c7-af6d-921aa7a3559d,0.0,0,0,Faible 🟢
+6ba1fc60-9a95-4007-8c31-ad7f5925eeee,0.0,0,0,Faible 🟢
+003b3f1b-b8d4-424a-a925-b5c0b8ec8019,0.0,0,0,Faible 🟢
+58bc03ca-2e41-43ff-92e2-eefce6431c79,0.0,0,0,Faible 🟢
+e54f71c3-cfa1-468d-99a4-3844f6dbed6b,0.0,0,0,Faible 🟢
+2375bf40-d884-42e8-a6bc-b4bd2fd60b60,0.0,0,0,Faible 🟢
+6a4d5553-560f-4a4d-b27d-441acf4c4795,0.0,0,0,Faible 🟢
+de529d9a-e4be-4037-9f84-f302696ca73d,0.0,0,0,Faible 🟢
+6a3ae40a-6495-4031-949a-08081d73316a,0.0,0,0,Faible 🟢
+ac7f60d3-c773-4b34-92ed-ecf9ae7e691e,0.0,0,0,Faible 🟢
+ea318968-a537-4abb-890a-5cdb8fa033ac,0.0,0,0,Faible 🟢
+fd4f58b8-99e3-4ed8-94c6-b91b3eb0ca52,0.0,0,0,Faible 🟢
+622649c1-199c-4276-9a91-d100f701e9a5,0.0,0,0,Faible 🟢
+61a4f7a7-bca9-44e9-9523-70c68244c3ad,0.0,0,0,Faible 🟢
+e3a8f5c0-ca1e-4a3a-b578-1e3ac480ed46,0.0,0,0,Faible 🟢
+1d7a5ca9-8b62-4e87-9d66-28fb295a9cfc,0.0,0,0,Faible 🟢
+901f9df2-a3aa-4156-873b-ffbd91a97e06,0.0,0,0,Faible 🟢
+a05b0f47-72ff-4622-98f4-ae7a5e396944,0.0,0,0,Faible 🟢
+9f9ab768-1795-468f-8cec-70eea12eef8f,0.0,0,0,Faible 🟢
+5c2cfc94-4850-4d8f-8f48-bd1ef90442fa,0.0,0,0,Faible 🟢
+e68b713c-71eb-4366-bf72-78a278e2c3a6,0.0,0,0,Faible 🟢
+399aae18-3111-4026-b0bd-96d52b6cf3da,0.0,0,0,Faible 🟢
+0c050ab9-3a4e-4e67-8f30-54735912019c,0.0,0,0,Faible 🟢
+dbcaf6fb-d9c9-4664-bb17-9763ea825d28,0.0,0,0,Faible 🟢
+31f39c95-f525-4388-bb51-8375937a5e99,0.0,0,0,Faible 🟢
+f8dbd234-cd32-4ad0-9a6d-f4543658348e,0.0,0,0,Faible 🟢
+858851e6-0c46-4fc8-a9d3-89425e6c0a06,0.0,0,0,Faible 🟢
+8df459ef-d29b-4573-aeff-f39f6aa81397,0.0,0,0,Faible 🟢
+c782236c-d8a5-4ef4-ad2e-d8043c09e047,0.0,0,0,Faible 🟢
+631c184a-d080-4042-b7d8-cfd75dcc4f33,0.0,0,0,Faible 🟢
+aa369d28-e0e1-4c25-a3ce-8df8a51718ab,0.0,0,0,Faible 🟢
+e5d36a69-a192-47a9-89e1-9aaf333fb7f6,0.0,0,0,Faible 🟢
+3d305a42-c209-4af9-bdd8-67f004fb4847,0.0,0,0,Faible 🟢
+d05d7caa-7a96-4089-a842-977bfee64809,0.0,0,0,Faible 🟢
+61e60f8d-d6fc-416d-9732-a008aecc74b4,0.0,0,0,Faible 🟢
+46d395b8-c9f3-402c-b050-3ea20c36d93d,0.0,0,0,Faible 🟢
+52ece71d-b34a-46be-a31c-8f07f63f1b56,0.0,0,0,Faible 🟢
+4e3d42bd-9806-4caf-bcae-73956cf7357e,0.0,0,0,Faible 🟢
+cb318908-ce7f-4408-a86d-95f0d60a4302,0.0,0,0,Faible 🟢
+0058c3c8-8abc-4878-b6e3-453a34c94738,0.0,0,0,Faible 🟢
+9188c9ce-b7b0-4e4e-b3b6-ce438d696217,0.0,0,0,Faible 🟢
+94743452-4004-4e4e-ad08-0f461b648d2f,0.0,0,0,Faible 🟢
+649caefe-29b6-409d-8e6c-e1d136d5215c,0.0,0,0,Faible 🟢
+6bb5ede4-1f42-4623-95ef-921da714d5ec,0.0,0,0,Faible 🟢
+e280a741-0ae6-4ebb-b3a3-7403e035f96c,0.0,0,0,Faible 🟢
+eb500f87-f415-4c06-8704-83966365befa,0.0,0,0,Faible 🟢
+16ada2b4-5346-40fc-a1c8-0982d07d4929,0.0,0,0,Faible 🟢
+28b80fcb-a0e3-4914-94dd-b4ac4fac11c4,0.0,0,0,Faible 🟢
+b03f77a6-10d0-4f9d-b7df-9912438ecd3a,0.0,0,0,Faible 🟢
+d6bc1730-828a-43a9-bd12-b92d232569b7,0.0,0,0,Faible 🟢
+d4c5c241-7919-4c1f-a6f2-ea1d904851b4,0.0,0,0,Faible 🟢
+04fb1c47-697f-4e70-aac3-a0feeb36f75c,0.0,0,0,Faible 🟢
+d8a35890-02f0-40fa-a981-6e4c4b3f75c8,0.0,0,0,Faible 🟢
+f5e77b42-71b0-47b5-9576-b5a9692906d0,0.0,0,0,Faible 🟢
+3732a9e2-080d-4ee4-9357-ee35d09cabfb,0.0,0,0,Faible 🟢
+bcd1ba0f-0a5b-471e-9a0c-12222b385b19,0.0,0,0,Faible 🟢
+06dbdebf-5d1d-442b-8760-c5a298731504,0.0,0,0,Faible 🟢
+93c93ee7-ff18-495c-bac1-21141633a7af,0.0,0,0,Faible 🟢
+75ccfaae-a555-4904-b863-b4a6eed226b8,0.0,0,0,Faible 🟢
+b648a98d-565a-40ac-85c5-4725c3183ac5,0.0,0,0,Faible 🟢
+17038313-9c76-4601-8745-9eb7786c2def,0.0,0,0,Faible 🟢
+c79b22d6-ac7f-4513-853d-f717fa3456a6,0.0,0,0,Faible 🟢
+730ed3de-c0b2-4f27-91c7-e4790838aafe,0.0,0,0,Faible 🟢
+c0cf3748-a8e2-4502-b5e6-8bf579fe295c,0.0,0,0,Faible 🟢
+5cee335d-59ee-414f-a137-9f6ac8f175f5,0.0,0,0,Faible 🟢
+80a49edf-9e17-4e90-959d-7089dfe9284c,0.0,0,0,Faible 🟢
+742ad85d-2cdf-4e23-8c14-dd7e42a37ae0,0.0,0,0,Faible 🟢
+c772a834-d514-4fa6-850e-f16d398731f4,0.0,0,0,Faible 🟢
+00454728-15ac-4270-aab5-d959f511f7d7,0.0,0,0,Faible 🟢
+5f961e01-9377-4cd5-a8e7-ed6534dcee7c,0.0,0,0,Faible 🟢
+60871142-044c-4bd7-8db7-750a07840e33,0.0,0,0,Faible 🟢
+3fec8b0d-40bf-4ae9-bc8a-dfb2c7feca6c,0.0,0,0,Faible 🟢
+3d4118ae-ddf2-4941-aade-c5501a4dc240,0.0,0,0,Faible 🟢
+7bd249e9-c8ab-4728-938d-3c1ac6692bf4,0.0,0,0,Faible 🟢
+30284ee5-44fc-4447-9e3c-c5600a353929,0.0,0,0,Faible 🟢
+d2f302a4-2717-4000-83af-07ab3191aea6,0.0,0,0,Faible 🟢
+9c41c4b5-eec0-4f45-8efb-6c2e7fde7b6e,0.0,0,0,Faible 🟢
+24207446-9df8-4c78-84d0-32f451294d01,0.0,0,0,Faible 🟢
+2af3266b-5409-459f-85d9-14c77c3c960d,0.0,0,0,Faible 🟢
+a45aadcf-b72b-4c96-91bb-3989ed3a35cf,0.0,0,0,Faible 🟢
+a7433451-8ea9-428a-9d80-679c6963b39f,0.0,0,0,Faible 🟢
+c8780617-f4c8-46aa-9579-eec51d27f9f2,0.0,0,0,Faible 🟢
+15a61378-7203-4f16-9963-d5e97c0526fb,0.0,0,0,Faible 🟢
+3d6cb9e3-2235-4b33-9cbb-95d9e4b4d92b,0.0,0,0,Faible 🟢
+ae7b27d8-8bb9-4cdf-8a54-097f71deb8aa,0.0,0,0,Faible 🟢
+15dbf215-794e-41dd-ae49-e041d2eb92cd,0.0,0,0,Faible 🟢
+baf5be33-d15b-4be6-a3e3-93f657b0196c,0.0,0,0,Faible 🟢
+f443f52b-5cd9-49dc-a703-bded44524075,0.0,0,0,Faible 🟢
+d7e32e1d-3818-4d28-a6f6-25741bcab36b,0.0,0,0,Faible 🟢
+f5c8408d-3fa7-4f8d-8192-251dd1e0d572,0.0,0,0,Faible 🟢
+9526f931-ab7d-4a6d-ad2d-5893da558e8e,0.0,0,0,Faible 🟢
+01f7e196-69e1-4535-bb38-9205c0a9452a,0.0,0,0,Faible 🟢
+6b9f7d61-4355-4db4-a2cf-3874ad08d230,0.0,0,0,Faible 🟢
+ca5916c3-79aa-45b7-8b89-101de1569d46,0.0,0,0,Faible 🟢
+cd62dbe2-b2b8-40b9-b60b-f5f197461f0f,0.0,0,0,Faible 🟢
+441105ee-eb7b-46e8-8d41-38e5602649b6,0.0,0,0,Faible 🟢
+aa253d28-c8b5-43b3-852c-2353e1d3f3bd,0.0,0,0,Faible 🟢
+dc7dec4b-8c9d-4c9e-8a54-363fb1e37a31,0.0,0,0,Faible 🟢
+460481ed-795b-4f5b-a1b0-82ac513f09cd,0.0,0,0,Faible 🟢
+81353a74-fc16-42fd-be91-039fe6fe65eb,0.0,0,0,Faible 🟢
+2e0da62b-db65-4108-8c11-cf3a921d2126,0.0,0,0,Faible 🟢
+652d16f0-2d39-43a3-ac37-1b0944b5638c,0.0,0,0,Faible 🟢
+3004baf7-c1bd-4495-aeb5-390f73a9bb2a,0.0,0,0,Faible 🟢
+d33c4e46-ca5d-4942-8907-25acc3027956,0.0,0,0,Faible 🟢
+0407ba60-919b-4cd7-856d-16261b9cb7b3,0.0,0,0,Faible 🟢
+97939333-0407-4685-a77d-64137931c01d,0.0,0,0,Faible 🟢
+6fd71588-5a5c-490b-90ab-00b383cbdf98,0.0,0,0,Faible 🟢
+36c3e925-7e7c-43ac-80df-b9a0cc095b1e,0.0,0,0,Faible 🟢
+22551ab4-ccdc-4a46-a402-b7f7364f3d36,0.0,0,0,Faible 🟢
+f7241406-6d7a-4ed7-b02e-1ac9fdbd6a18,0.0,0,0,Faible 🟢
+c83c72fb-f04b-462d-a3d0-a73e5fcd044a,0.0,0,0,Faible 🟢
+e542d40b-0d31-4762-b1da-23461602e654,0.0,0,0,Faible 🟢
+62bdc978-3a20-48b2-a31e-449f00f12808,0.0,0,0,Faible 🟢
+b71a8285-6079-406e-8cc8-10a38ef81f6a,0.0,0,0,Faible 🟢
+2a605341-d3a8-4b5f-9fbf-5e08ffd25bca,0.0,0,0,Faible 🟢
+18113bd9-8080-4b06-802f-b7e9c43e05a4,0.0,0,0,Faible 🟢
+e052a590-33e1-4109-b150-e0518b128619,0.0,0,0,Faible 🟢
+59d127d8-aebf-4250-a3db-afd19a6382d5,0.0,0,0,Faible 🟢
+5b05dc43-df16-4dc0-96bb-752b38234278,0.0,0,0,Faible 🟢
+e1858fe1-7e4c-4252-a782-cb4bb212c0a1,0.0,0,0,Faible 🟢
+bf6cb9ae-c80d-4e5f-ae6f-333a179dc19e,0.0,0,0,Faible 🟢
+86e2c7fa-44cd-43a5-ba1d-c059afa38112,0.0,0,0,Faible 🟢
+1b46ac35-1c9e-4a96-a383-8b9f3543080d,0.0,0,0,Faible 🟢
+836151e9-14c2-4811-9ef6-7f10e72a5336,0.0,0,0,Faible 🟢
+58f0eda8-97bc-469d-a116-bb9054ddc24b,0.0,0,0,Faible 🟢
+125e13ef-1277-4493-8e5f-6605af9c6299,0.0,0,0,Faible 🟢
+e5a9b6e3-1d31-45fd-bae5-60baa7e7a1cf,0.0,0,0,Faible 🟢
+898554b6-e1e6-483c-b6d1-afa5316ba407,0.0,0,0,Faible 🟢
+7778861f-1210-4a83-b914-682b9e82fb78,0.0,0,0,Faible 🟢
+57dbc2b5-98d0-4f2a-97ea-eadd320b30dc,0.0,0,0,Faible 🟢
+f1f0a8b2-fa8b-4746-a047-daf9a630649d,0.0,0,0,Faible 🟢
+3a244871-b856-4a70-a564-ff461dccd8d3,0.0,0,0,Faible 🟢
+d03cd20e-6e90-4093-bd6b-168028c0a63d,0.0,0,0,Faible 🟢
+6ceda489-83db-4fdf-b3f1-559c1ce9929d,0.0,0,0,Faible 🟢
+718b17e5-858e-457f-ab69-94cfe4151af4,0.0,0,0,Faible 🟢
+e370dc24-f568-4fde-9df9-a1e6e645b0bd,0.0,0,0,Faible 🟢
+37250da5-30c7-49ef-b9e5-6940dd69158b,0.0,0,0,Faible 🟢
+c2408187-a1bf-402b-9cc4-6a7b4a1004eb,0.0,0,0,Faible 🟢
+bd975a90-8f10-4ed4-bd8f-6c0f1a6fa784,0.0,0,0,Faible 🟢
+74fc556c-edd3-4ae7-8d37-72ad386b76d9,0.0,0,0,Faible 🟢
+c8735a1c-ba39-4fa7-87a4-83145b8ed3ba,0.0,0,0,Faible 🟢
+3edeb1f9-b7d4-47cd-b03c-02ea65061bb2,0.0,0,0,Faible 🟢
+e37e9534-719d-4f7e-ad82-a5221fa7113f,0.0,0,0,Faible 🟢
+20e7391d-379d-4189-a219-8d507c085011,0.0,0,0,Faible 🟢
+edf0667c-b2cd-4dfa-8ae4-c81bcfdb5f1f,0.0,0,0,Faible 🟢
+6cd46922-5dcb-4369-8a15-82a3b9681efb,0.0,0,0,Faible 🟢
+5c3aade6-b97b-40ce-a734-71b68c0f26b3,0.0,0,0,Faible 🟢
+ca9e16be-d0ec-40b8-b22f-b25f7e830e36,0.0,0,0,Faible 🟢
+d978a8e8-41b1-47a4-a4fc-a9bf7a619eb4,0.0,0,0,Faible 🟢
+4d5d43ea-fa25-43ac-b387-49cad4ec6d45,0.0,0,0,Faible 🟢
+bb118f55-1142-4c7a-80e9-3ee12d4a8f79,0.0,0,0,Faible 🟢
+8d69d616-1f54-4eac-bdb7-1cdafce5b8f4,0.0,0,0,Faible 🟢
+84a61bf5-6153-44f5-878c-448f20555870,0.0,0,0,Faible 🟢
+5aa85c9f-ad0e-42d9-acec-f0e3d6468d15,0.0,0,0,Faible 🟢
+6ba61416-a65d-4f72-922f-ce8c6653c1be,0.0,0,0,Faible 🟢
+0b95c9ce-a43d-46a5-a7ec-36dee1a94b22,0.0,0,0,Faible 🟢
+9f3f9e80-81d1-435a-b871-497b37fa707f,0.0,0,0,Faible 🟢
+96dbdbe5-746b-4b8d-aab3-8a1c87158dc2,0.0,0,0,Faible 🟢
+0bcb5fe9-506b-43bb-ab76-6079f8841a98,0.0,0,0,Faible 🟢
+43f81935-49e3-44d3-94d1-5c4715738988,0.0,0,0,Faible 🟢
+2d192832-db1d-49b9-b950-4db5d5404648,0.0,0,0,Faible 🟢
+2743e083-3f79-4309-9e76-c42db807e262,0.0,0,0,Faible 🟢
+e4528b3c-c3ce-4adb-8ec0-67bf8ddb99b1,0.0,0,0,Faible 🟢
+c53e97b0-a6e3-4fb1-85d2-1765ea173075,0.0,0,0,Faible 🟢
+a2945991-1eed-48c8-8384-48c3b2801e81,0.0,0,0,Faible 🟢
+5d8bb690-6581-43ad-b241-5130e5e68cea,0.0,0,0,Faible 🟢
+ae2c5ffa-4cbe-4745-a93d-9df7389d27d2,0.0,0,0,Faible 🟢
+eafc5f0a-c48a-4092-8e03-daea42de270a,0.0,0,0,Faible 🟢
+860baaf0-cd5e-4043-854c-ef607398b207,0.0,0,0,Faible 🟢
+56f85cd3-25ab-4774-854f-1dd4aed55529,0.0,0,0,Faible 🟢
+7039c40d-ade4-4fdd-82c1-bae7bd6ea752,0.0,0,0,Faible 🟢
+4620b6fe-2fc0-430c-9b55-ed4360e53731,0.0,0,0,Faible 🟢
+58f053a6-52f8-4cd9-9eff-bac553e0eefa,0.0,0,0,Faible 🟢
+88c54681-6904-4dcc-9f24-3304f7425ce0,0.0,0,0,Faible 🟢
+44d4d688-7125-42d8-a734-859b7c24046d,0.0,0,0,Faible 🟢
+6f309408-a6a2-443a-972d-d6337717a697,0.0,0,0,Faible 🟢
+d7d3c198-413f-452a-9021-d95bab0ccb95,0.0,0,0,Faible 🟢
+e9602fb5-3aa7-4516-a24e-3bb404356e46,0.0,0,0,Faible 🟢
+b3032c15-e26b-4906-8117-def971ad8a20,0.0,0,0,Faible 🟢
+551b6987-6bf0-47d7-8bc8-47aa1c09d8a3,0.0,0,0,Faible 🟢
+37b11ff8-299b-42d4-ad99-fb6a2ef07323,0.0,0,0,Faible 🟢
+4dc6373e-61ed-4e64-a631-f47ce23e9173,0.0,0,0,Faible 🟢
+452ee66c-dd8b-497c-8bcf-6f2da88c0aea,0.0,0,0,Faible 🟢
+510d84d2-bed5-4203-9d78-eb2579a7a0b7,0.0,0,0,Faible 🟢
+20c637af-ed1c-4c46-96ba-95b220c0e8ae,0.0,0,0,Faible 🟢
+5182e354-5b7a-4e11-b92f-0e6df435b477,0.0,0,0,Faible 🟢
+ff17dbda-0c0a-42d9-a29a-2177d72e482b,0.0,0,0,Faible 🟢
+9ad55785-c07f-4b4f-8434-c0283b2ab955,0.0,0,0,Faible 🟢
+649e9911-001d-49f8-b5b8-4b50a1116b37,0.0,0,0,Faible 🟢
+f6730c4c-f769-404d-ad9c-807f9af7eef6,0.0,0,0,Faible 🟢
+efb7a9be-de88-42b7-825f-51475515eb5e,0.0,0,0,Faible 🟢
+72686f16-f90f-45ff-ba8a-c819ac55bc23,0.0,0,0,Faible 🟢
+4f1533a2-326b-435b-81ae-2863ba1efd29,0.0,0,0,Faible 🟢
+edfbc1c9-b72c-4953-8d6b-aeb0a2e815b4,0.0,0,0,Faible 🟢
+f7b88739-6e00-40c5-84b9-d664cd030351,0.0,0,0,Faible 🟢
+3f7223db-b9df-4fa4-a69b-0d3ef391e76b,0.0,0,0,Faible 🟢
+fa8d0ddd-8b5d-45f6-be35-736cddf14f54,0.0,0,0,Faible 🟢
+02f8fd2c-82b7-4463-ad9e-1d93060385a8,0.0,0,0,Faible 🟢
+e62a5c08-e33e-44f5-81d2-63ffe214cf7a,0.0,0,0,Faible 🟢
+170bbec9-7eef-49ca-b5a8-ab48eb3f0527,0.0,0,0,Faible 🟢
+5d329c77-7284-4641-8ed7-2e92694bb63c,0.0,0,0,Faible 🟢
+4b9e5ee5-e0ea-4126-ab3b-e1a1d04a8293,0.0,0,0,Faible 🟢
+8b58851e-6869-4a0e-b925-7f15e32a5dda,0.0,0,0,Faible 🟢
+18f46ca7-91b7-4cde-9a8f-7a79a39a1183,0.0,0,0,Faible 🟢
+a3dcdbd3-88f1-46eb-a567-a020310153eb,0.0,0,0,Faible 🟢
+8ca23f63-e032-4cab-8189-11f23122e1ab,0.0,0,0,Faible 🟢
+8c5cb443-d40b-45ef-9d65-809119d08eee,0.0,0,0,Faible 🟢
+abca3dfc-72ea-4c7c-928d-47e1d69ad500,0.0,0,0,Faible 🟢
+65c0601b-7eef-4d5c-829e-80d1f9df034f,0.0,0,0,Faible 🟢
+8fe498dd-79c2-4b7d-8588-d7dffaf80969,0.0,0,0,Faible 🟢
+1ddcb8d3-286e-4ddc-8c3b-3d81e6d35c27,0.0,0,0,Faible 🟢
+3f79ea00-7a81-493f-9e53-8166284cd53a,0.0,0,0,Faible 🟢
+278cb065-1697-4f19-b9d7-84ca872f2e48,0.0,0,0,Faible 🟢
+c06ec2d3-133b-4b3e-a53a-2c5bfc28f355,0.0,0,0,Faible 🟢
+4c04cd38-a0af-498f-969a-fe22751fac2a,0.0,0,0,Faible 🟢
+e72e7d05-9330-481e-8deb-5313a3add45a,0.0,0,0,Faible 🟢
+d1203124-6cd6-41a1-bd6f-8f4b21194a44,0.0,0,0,Faible 🟢
+00394ed3-b026-4725-b201-db3c88023bab,0.0,0,0,Faible 🟢
+3f4aeabf-13a1-448e-be61-eabcdc91e256,0.0,0,0,Faible 🟢
+5b78f2bc-b430-4892-a3fe-05f25ca53f96,0.0,0,0,Faible 🟢
+a50f0d8e-85bf-48ce-bcbd-cf4945359db5,0.0,0,0,Faible 🟢
+ff86f8cb-5925-404e-bec8-7384c4824bfe,0.0,0,0,Faible 🟢
+2a40f5a3-9136-4e4c-be23-f999619417ab,0.0,0,0,Faible 🟢
+84df0d86-e7ad-4f41-a2ac-daca631dd265,0.0,0,0,Faible 🟢
+7fabeb26-99fc-4502-8b92-0175d9eba0bb,0.0,0,0,Faible 🟢
+2764c34e-0255-4b6e-92cc-20df863380d7,0.0,0,0,Faible 🟢
+610c62c2-4a2c-42bb-b9c4-9ec6d5588c94,0.0,0,0,Faible 🟢
+df271e40-9853-4d55-9991-4636f8ed2e5b,0.0,0,0,Faible 🟢
+714e9c7e-116c-4964-9724-5d4cb00388db,0.0,0,0,Faible 🟢
+6d37b345-96fc-4ca6-ae21-58c44209afe0,0.0,0,0,Faible 🟢
+46fe394c-358c-4e3d-92a1-4951c1ce5edf,0.0,0,0,Faible 🟢
+17cab6c7-e22d-4a6c-970e-f3e6c3287fbd,0.0,0,0,Faible 🟢
+57a2efdf-75f0-490a-bcf6-ca219bb2954c,0.0,0,0,Faible 🟢
+54985601-6cd8-41c4-ad6f-64f27309c915,0.0,0,0,Faible 🟢
+92f05e9d-0c75-433a-abe5-be3287c6e70a,0.0,0,0,Faible 🟢
+76dcc207-17bc-4eb6-bfcc-7e6b6fd179f0,0.0,0,0,Faible 🟢
+f8b5ff60-1423-48d6-9068-b94542e93886,0.0,0,0,Faible 🟢
+36a2a155-2716-4eff-86ff-797fe38f83c1,0.0,0,0,Faible 🟢
+5abd3fb3-551d-49aa-8eb1-0c3cb52fbc35,0.0,0,0,Faible 🟢
+efc17957-8bef-42a1-89c8-6b81e7f98fdb,0.0,0,0,Faible 🟢
+e61ee53d-6358-4393-b28c-9339886616fb,0.0,0,0,Faible 🟢
+44a21660-aeac-4076-92d8-115507c9b4ff,0.0,0,0,Faible 🟢

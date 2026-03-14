@@ -1,0 +1,84 @@
+============================================================
+RAPPORT BUSINESS — CUSTOMER CHURN PREDICTION
+============================================================
+
+📊 PERFORMANCE DU MODÈLE
+----------------------------------------
+  ROC-AUC   : 0.9934  (excellent — proche de 1.0)
+  Recall    : 88.2%   (88% des churners détectés)
+  Precision : 91.1%   (91% des alertes sont justes)
+  Accuracy  : 96.8%
+
+👥 SEGMENTATION DES 1 200 CLIENTS DU TEST
+----------------------------------------
+  Très élevé 🔴         :  143 clients  (11.9%)
+  Élevé 🟠              :   38 clients  (3.2%)
+  Modéré 🟡             :   43 clients  (3.6%)
+  Faible 🟢             :  976 clients  (81.3%)
+
+🔍 PROFIL DES CLIENTS À RISQUE TRÈS ÉLEVÉ 🔴
+----------------------------------------
+  Inactivité moyenne     : 86 jours
+  Score d'engagement     : 2.03 / 10
+  Score de satisfaction  : 7.71 / 10
+  Valeur panier moyen    : 86 USD
+  Membres programme fidélité : 10%
+
+💡 FACTEURS DE CHURN IDENTIFIÉS
+----------------------------------------
+  1. Inactivité récente          (corrélation : +0.78)
+     → Aucun achat depuis >60j = signal d'alarme fort
+
+  2. Faible engagement           (corrélation : +0.78)
+     → Score <3 : le client ne visite plus la plateforme
+
+  3. Score de risque composite   (corrélation : +0.77)
+     → Combinaison inactivité + engagement + satisfaction
+
+  4. Segment de récence          (corrélation : +0.66)
+     → Plus l'inactivité est longue, plus le risque monte
+
+  5. Satisfaction                (différence : 7.7 vs 8.1)
+     → Signal modéré mais accompagne souvent les autres
+
+🎯 PLAN D'ACTIONS PAR SEGMENT
+----------------------------------------
+
+  🔴 TRÈS ÉLEVÉ (≥80% de risque) — 143 clients
+     Profil  : inactif depuis 86j, engagement 2.0
+     Actions :
+       • Email personnalisé 'Vous nous manquez'
+       • Réduction exceptionnelle 20-30%
+       • Appel service client si panier > 100 USD
+       • Offrir l'adhésion au programme fidélité
+
+  🟠 ÉLEVÉ (50-80% de risque) — 38 clients
+     Profil  : inactif depuis 56j, engagement 3.4
+     Actions :
+       • Email de relance avec recommandations produits
+       • Offre flash limitée dans le temps
+       • Notification push si app mobile installée
+
+  🟡 MODÉRÉ (20-50% de risque) — 43 clients
+     Profil  : inactif depuis 52j, engagement 3.6
+     Actions :
+       • Newsletter avec nouveautés personnalisées
+       • Points fidélité bonus sur prochain achat
+       • Enquête de satisfaction courte (2 questions)
+
+  🟢 FAIBLE (<20% de risque) — 976 clients
+     Profil  : actif, engagement 5.4, satisfaction 8.1
+     Actions :
+       • Programme fidélité et récompenses
+       • Upsell / cross-sell sur leurs catégories
+       • Aucune action urgente nécessaire
+
+💰 IMPACT BUSINESS ESTIMÉ
+----------------------------------------
+  Valeur annuelle moyenne / client  : ~963 USD
+  Clients à risque élevé détectés   : 181
+  Revenu potentiellement sauvé      : ~174,247 USD
+  (si on retient 50% de ces clients)
+  → ~87,124 USD de revenu préservé
+
+============================================================
