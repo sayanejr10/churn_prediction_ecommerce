@@ -160,7 +160,7 @@ Réel Churner   [       22              164      ]
 
 ```bash
 # 1. Cloner le repo
-git clone https://github.com/TON_USERNAME/churn_project.git
+git clone https://github.com/sayanejr10/churn_project.git
 cd churn_project
 
 # 2. Installer les dépendances
