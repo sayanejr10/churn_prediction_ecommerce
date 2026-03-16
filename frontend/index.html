@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Churn Prediction</title>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg:        #ffffff;
+    --bg-subtle: #f7f7f5;
+    --bg-card:   #ffffff;
+    --border:    #e8e8e4;
+    --border-strong: #d4d4cf;
+    --text:      #1a1a18;
+    --text-2:    #6b6b66;
+    --text-3:    #9b9b96;
+    --accent:    #1a1a18;
+    --accent-fg: #ffffff;
+    --radius:    10px;
+    --radius-sm: 6px;
+    --shadow:    0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    --red:    #dc2626; --red-bg:    #fef2f2; --red-border:    #fecaca;
+    --orange: #ea580c; --orange-bg: #fff7ed; --orange-border: #fed7aa;
+    --yellow: #ca8a04; --yellow-bg: #fefce8; --yellow-border: #fef08a;
+    --green:  #16a34a; --green-bg:  #f0fdf4; --green-border:  #bbf7d0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:        #111110;
+      --bg-subtle: #1a1a18;
+      --bg-card:   #161615;
+      --border:    #282826;
+      --border-strong: #3a3a37;
+      --text:      #eeeeec;
+      --text-2:    #a0a09a;
+      --text-3:    #6b6b66;
+      --accent:    #eeeeec;
+      --accent-fg: #111110;
+      --shadow:    0 1px 3px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
+      --red-bg:    #1c0a0a; --red-border:    #7f1d1d;
+      --orange-bg: #1c0d00; --orange-border: #7c2d12;
+      --yellow-bg: #1a1400; --yellow-border: #713f12;
+      --green-bg:  #031a0a; --green-border:  #14532d;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 14px; }
+
+  body {
+    font-family: 'Geist', -apple-system, sans-serif;
+    background: var(--bg-subtle);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1rem 4rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    width: 100%;
+    max-width: 580px;
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.4s ease both;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .logo-icon {
+    width: 26px; height: 26px;
+    background: var(--accent);
+    border-radius: 5px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+  }
+
+  .logo-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-2);
+    letter-spacing: -0.01em;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    color: var(--text);
+    line-height: 1.2;
+    margin-bottom: 0.35rem;
+  }
+
+  .desc {
+    font-size: 0.85rem;
+    color: var(--text-2);
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 580px;
+    overflow: hidden;
+    animation: fadeUp 0.4s ease 0.05s both;
+  }
+
+  .section-header {
+    padding: 0.85rem 1.25rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .section-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--text-3);
+  }
+
+  .section-title {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-3);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+
+  .fields {
+    padding: 0.9rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.65rem;
+  }
+
+  .field { display: flex; flex-direction: column; gap: 0.25rem; }
+
+  .field label {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-2);
+  }
+
+  .field input,
+  .field select {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.42rem 0.6rem;
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--text);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .field input:focus,
+  .field select:focus {
+    outline: none;
+    border-color: var(--border-strong);
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .field input:focus,
+    .field select:focus {
+      box-shadow: 0 0 0 3px rgba(255,255,255,0.05);
+    }
+  }
+
+  .divider { height: 1px; background: var(--border); }
+
+  .submit-area { padding: 0.9rem 1.25rem; }
+
+  button#btn {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    background: var(--accent);
+    color: var(--accent-fg);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Geist', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: -0.01em;
+    transition: opacity 0.15s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    height: 36px;
+  }
+
+  button#btn:hover { opacity: 0.82; }
+  button#btn:active { transform: scale(0.99); }
+  button#btn:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+  .spinner {
+    width: 13px; height: 13px;
+    border: 1.5px solid var(--accent-fg);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    display: none;
+  }
+
+  .loading .spinner { display: block; }
+  .loading .btn-text { display: none; }
+
+  /* ── RESULT ── */
+  .result-card {
+    margin-top: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    display: none;
+    animation: fadeUp 0.25s ease both;
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .result-card.show { display: block; }
+  .result-card.red    { border-color: var(--red-border);    background: var(--red-bg); }
+  .result-card.orange { border-color: var(--orange-border); background: var(--orange-bg); }
+  .result-card.yellow { border-color: var(--yellow-border); background: var(--yellow-bg); }
+  .result-card.green  { border-color: var(--green-border);  background: var(--green-bg); }
+
+  .result-top {
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .result-left { flex: 1; }
+
+  .result-label {
+    font-size: 0.68rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--text-2);
+    margin-bottom: 0.25rem;
+  }
+
+  .result-risk {
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    margin-bottom: 0.1rem;
+  }
+
+  .result-sub {
+    font-size: 0.75rem;
+    color: var(--text-2);
+  }
+
+  .result-proba {
+    font-family: 'Geist Mono', monospace;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .result-divider { height: 1px; background: var(--border); opacity: 0.4; }
+
+  .result-action {
+    padding: 0.8rem 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .action-arrow {
+    font-size: 0.75rem;
+    color: var(--text-3);
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+  }
+
+  .action-text {
+    font-size: 0.8rem;
+    color: var(--text-2);
+    line-height: 1.5;
+  }
+
+  .action-text strong {
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--text-3);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-bottom: 0.2rem;
+  }
+
+  .error-msg {
+    margin-top: 0.6rem;
+    padding: 0.65rem 0.9rem;
+    background: var(--red-bg);
+    border: 1px solid var(--red-border);
+    border-radius: var(--radius-sm);
+    font-size: 0.78rem;
+    color: var(--red);
+    display: none;
+    width: 100%;
+    max-width: 580px;
+  }
+  .error-msg.show { display: block; }
+
+  footer {
+    margin-top: 1.75rem;
+    font-size: 0.7rem;
+    color: var(--text-3);
+    text-align: center;
+    animation: fadeUp 0.4s ease 0.15s both;
+  }
+
+  footer a { color: var(--text-2); text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">📊</div>
+    <span class="logo-text">Churn Intelligence</span>
+  </div>
+  <h1>Prédiction du risque<br>de départ client</h1>
+  <p class="desc">Renseignez le profil d'un client pour estimer sa probabilité de churn.</p>
+</header>
+
+<div class="card">
+
+  <div class="section-header">
+    <div class="section-dot"></div>
+    <span class="section-title">Historique d'achat</span>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Ancienneté (mois)</label>
+      <input type="number" id="account_age_months" min="1"/>
+    </div>
+    <div class="field">
+      <label>Valeur moy. commande ($)</label>
+      <input type="number" id="avg_order_value" step="0.1"/>
+    </div>
+    <div class="field">
+      <label>Nombre de commandes</label>
+      <input type="number" id="total_orders" min="0"/>
+    </div>
+    <div class="field">
+      <label>Jours sans achat</label>
+      <input type="number" id="days_since_last_purchase" min="0"/>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section-header">
+    <div class="section-dot"></div>
+    <span class="section-title">Engagement & comportement</span>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Score d'engagement (0–10)</label>
+      <input type="number" id="engagement_score" step="0.1" min="0" max="10"/>
+    </div>
+    <div class="field">
+      <label>Visites / semaine</label>
+      <input type="number" id="browsing_frequency_per_week" step="0.1" min="0"/>
+    </div>
+    <div class="field">
+      <label>Taux abandon panier (0–1)</label>
+      <input type="number" id="cart_abandonment_rate" step="0.01" min="0" max="1"/>
+    </div>
+    <div class="field">
+      <label>Membre fidélité</label>
+      <select id="loyalty_member">
+        <option value="0">Non</option>
+        <option value="1">Oui</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section-header">
+    <div class="section-dot"></div>
+    <span class="section-title">Satisfaction & support</span>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Score satisfaction (0–10)</label>
+      <input type="number" id="satisfaction_score" step="0.1" min="0" max="10"/>
+    </div>
+    <div class="field">
+      <label>Note produits (1–5)</label>
+      <input type="number" id="product_review_score_avg" step="0.1" min="1" max="5"/>
+    </div>
+    <div class="field">
+      <label>Tickets support</label>
+      <input type="number" id="customer_support_tickets" min="0"/>
+    </div>
+    <div class="field">
+      <label>Taux retour produits (0–1)</label>
+      <input type="number" id="return_rate" step="0.01" min="0" max="1"/>
+    </div>
+    <div class="field">
+      <label>Taux réductions (0–1)</label>
+      <input type="number" id="discount_usage_rate" step="0.01" min="0" max="1"/>
+    </div>
+    <div class="field">
+      <label>Sensibilité prix (1–10)</label>
+      <input type="number" id="price_sensitivity_index" step="0.1" min="1" max="10"/>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="submit-area">
+    <button id="btn" onclick="predict()">
+      <span class="btn-text">Analyser le profil</span>
+      <div class="spinner"></div>
+    </button>
+  </div>
+
+</div>
+
+<div class="error-msg" id="error">
+  Impossible de contacter l'API — vérifiez que Docker tourne sur le port 8000.
+</div>
+
+<div class="result-card" id="result">
+  <div class="result-top">
+    <div class="result-left">
+      <div class="result-label">Niveau de risque</div>
+      <div class="result-risk" id="risk-text"></div>
+      <div class="result-sub">Probabilité de churn estimée</div>
+    </div>
+    <div class="result-proba" id="proba-text"></div>
+  </div>
+  <div class="result-divider"></div>
+  <div class="result-action">
+    <span class="action-arrow">→</span>
+    <div class="action-text">
+      <strong>Action recommandée</strong>
+      <span id="action-text"></span>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Modèle Random Forest · ROC-AUC 0.99 · Recall 88% ·
+  <a href="/docs" target="_blank">API docs</a>
+</footer>
+
+<script>
+async function predict() {
+  const btn = document.getElementById('btn');
+  const errorDiv = document.getElementById('error');
+  const resultDiv = document.getElementById('result');
+
+  btn.disabled = true;
+  btn.classList.add('loading');
+  errorDiv.classList.remove('show');
+  resultDiv.className = 'result-card';
+
+  const payload = {
+    account_age_months:          parseInt(document.getElementById('account_age_months').value),
+    avg_order_value:             parseFloat(document.getElementById('avg_order_value').value),
+    total_orders:                parseInt(document.getElementById('total_orders').value),
+    days_since_last_purchase:    parseInt(document.getElementById('days_since_last_purchase').value),
+    discount_usage_rate:         parseFloat(document.getElementById('discount_usage_rate').value),
+    return_rate:                 parseFloat(document.getElementById('return_rate').value),
+    customer_support_tickets:    parseInt(document.getElementById('customer_support_tickets').value),
+    loyalty_member:              parseInt(document.getElementById('loyalty_member').value),
+    browsing_frequency_per_week: parseFloat(document.getElementById('browsing_frequency_per_week').value),
+    cart_abandonment_rate:       parseFloat(document.getElementById('cart_abandonment_rate').value),
+    product_review_score_avg:    parseFloat(document.getElementById('product_review_score_avg').value),
+    engagement_score:            parseFloat(document.getElementById('engagement_score').value),
+    satisfaction_score:          parseFloat(document.getElementById('satisfaction_score').value),
+    price_sensitivity_index:     parseFloat(document.getElementById('price_sensitivity_index').value),
+  };
+
+  try {
+    const res = await fetch('http://127.0.0.1:8000/predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const data = await res.json();
+
+    document.getElementById('risk-text').textContent   = data.risk_level;
+    document.getElementById('proba-text').textContent  = data.churn_percentage;
+    document.getElementById('action-text').textContent = data.action;
+
+    const p = data.churn_probability;
+    const color = p >= 0.8 ? 'red' : p >= 0.5 ? 'orange' : p >= 0.2 ? 'yellow' : 'green';
+    resultDiv.classList.add('show', color);
+
+  } catch(e) {
+    errorDiv.classList.add('show');
+  }
+
+  btn.disabled = false;
+  btn.classList.remove('loading');
+}
+</script>
+</body>
+</html>
