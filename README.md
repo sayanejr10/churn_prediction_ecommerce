@@ -238,4 +238,42 @@ pip install -r requirements.txt
 python3 -m uvicorn api.main:app --reload
 ```
 
+## 📝 Guide d'utilisation de l'application
 
+Rendez-vous sur [l'application](https://churnpredictionecommerce-production.up.railway.app/app) et remplissez les champs suivants :
+
+### 🛍️ Historique d'achat
+
+| Champ | Description | Exemple |
+|---|---|---|
+| **Ancienneté (mois)** | Depuis combien de mois le client est inscrit sur la plateforme | `24` |
+| **Valeur moy. commande ($)** | Montant moyen dépensé par commande | `65.50` |
+| **Nombre de commandes** | Nombre total de commandes passées depuis l'inscription | `8` |
+| **Jours sans achat** | Nombre de jours écoulés depuis le dernier achat | `45` |
+
+### 📱 Engagement & comportement
+
+| Champ | Description | Exemple |
+|---|---|---|
+| **Score d'engagement (0–10)** | Niveau d'activité global du client sur la plateforme | `4.5` |
+| **Visites / semaine** | Nombre moyen de visites par semaine | `3.0` |
+| **Taux abandon panier (0–1)** | Proportion de paniers créés mais non finalisés | `0.4` |
+| **Membre fidélité** | Le client est-il inscrit au programme de fidélité | `Oui` |
+
+### ⭐ Satisfaction & support
+
+| Champ | Description | Exemple |
+|---|---|---|
+| **Score satisfaction (0–10)** | Note de satisfaction globale du client | `7.5` |
+| **Note produits (1–5)** | Moyenne des notes laissées sur les produits achetés | `4.0` |
+| **Tickets support** | Nombre de demandes d'assistance ouvertes | `1` |
+| **Taux retour produits (0–1)** | Proportion de produits retournés après achat | `0.05` |
+| **Taux réductions (0–1)** | À quel point le client utilise les codes promo | `0.3` |
+| **Sensibilité prix (1–10)** | Dans quelle mesure le prix influence ses décisions d'achat | `5.0` |
+
+### 🎯 Résultat
+
+Après avoir cliqué sur **"Analyser le profil"**, l'application affiche :
+- **Le niveau de risque** : 🔴 Très élevé / 🟠 Élevé / 🟡 Modéré / 🟢 Faible
+- **La probabilité de churn** en pourcentage
+- **L'action recommandée** pour retenir ce client
