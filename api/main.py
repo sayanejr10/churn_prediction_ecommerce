@@ -19,6 +19,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# ── CORS ─────────────────────────────────────────────────────
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # ── Schéma des données d'entrée ───────────────────────────────
 class CustomerData(BaseModel):
     account_age_months: int
@@ -89,3 +98,12 @@ def predict_churn(customer: CustomerData):
 @app.get("/")
 def root():
     return {"message": "Churn Prediction API is running ✓"}
+
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+app.mount("/static", StaticFiles(directory="frontend"), name="static")
+
+@app.get("/app")
+def serve_frontend():
+    return FileResponse("frontend/index.html")

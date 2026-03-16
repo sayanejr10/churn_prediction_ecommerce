@@ -11,6 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # ── Copie du code et du modèle ────────────────────────────────
 COPY api/ ./api/
 COPY model/ ./model/
+COPY frontend/ ./frontend/
 
 # ── Port exposé ───────────────────────────────────────────────
 EXPOSE 8000
