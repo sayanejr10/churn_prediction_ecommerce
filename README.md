@@ -20,7 +20,8 @@ Ce projet répond à la question :
 1. **Analyser** le comportement des clients (achats, engagement, satisfaction)
 2. **Identifier** les facteurs qui influencent le churn
 3. **Construire** un modèle prédictif (probabilité de churn par client)
-4. **Proposer** un plan d'actions business par segment de risque
+4. **Exposer** le modèle via une API REST
+5. **Proposer** une interface web pour utiliser le modèle en temps réel
 
 ---
 
@@ -38,11 +39,21 @@ churn_project/
 │   ├── step5_machine_learning.py         # Entraînement des modèles
 │   ├── step6_evaluation.py               # Évaluation + matrice de confusion
 │   └── step7_business_insights.py        # Insights + plan d'actions
+├── notebooks/
+│   └── churn_prediction_ecommerce.ipynb  # Notebook complet (EDA → Business)
+├── api/
+│   └── main.py                           # API FastAPI — endpoint /predict
+├── frontend/
+│   └── index.html                        # Interface web (dark/light mode auto)
+├── model/
+│   ├── churn_model.pkl                   # Modèle Random Forest entraîné
+│   └── feature_cols.pkl                  # Features utilisées
 ├── outputs/
-│   ├── churn_dataset_clean.csv           # Dataset nettoyé
-│   ├── churn_dataset_engineered.csv      # Dataset enrichi (20 features)
 │   ├── churn_predictions.csv             # Probabilités de churn par client
 │   └── rapport_business.txt             # Rapport business complet
+├── Dockerfile                            # Image Docker
+├── docker-compose.yml                    # Orchestration
+├── requirements.txt                      # Dépendances Python
 └── README.md
 ```
 
@@ -104,6 +115,7 @@ Entraînement de 3 modèles sur 80% des données (4 800 clients), évaluation su
 ✅ **Modèle retenu : Random Forest** — meilleur Recall (moins de churners ratés)
 
 ### Étape 6 — Évaluation
+
 **Matrice de confusion — Random Forest :**
 
 ```
@@ -118,14 +130,12 @@ Réel Churner   [       22              164      ]
 
 ### Étape 7 — Business Insights & Actions
 
-**Segmentation des clients par niveau de risque :**
-
-| Segment | Probabilité churn | Clients | Profil moyen | Actions recommandées |
-|---|---|---|---|---|
-| 🔴 Très élevé | ≥ 80% | 143 | Inactif 86j, engagement 2.0 | Email personnalisé + réduction 20-30% |
-| 🟠 Élevé | 50–80% | 38 | Inactif 56j, engagement 3.4 | Offre flash + recommandations produits |
-| 🟡 Modéré | 20–50% | 43 | Inactif 52j, engagement 3.6 | Newsletter + points fidélité bonus |
-| 🟢 Faible | < 20% | 976 | Actif 19j, engagement 5.4 | Programme fidélité + upsell |
+| Segment | Probabilité churn | Clients | Actions recommandées |
+|---|---|---|---|
+| 🔴 Très élevé | ≥ 80% | 143 | Email personnalisé + réduction 20-30% |
+| 🟠 Élevé | 50–80% | 38 | Offre flash + recommandations produits |
+| 🟡 Modéré | 20–50% | 43 | Newsletter + points fidélité bonus |
+| 🟢 Faible | < 20% | 976 | Programme fidélité + upsell |
 
 **Impact financier estimé :**
 - Valeur annuelle moyenne par client : ~963 USD
@@ -134,14 +144,62 @@ Réel Churner   [       22              164      ]
 
 ---
 
+## 🚀 API REST — FastAPI
+
+Le modèle est exposé via une API REST construite avec **FastAPI**.
+
+### Endpoints
+
+| Méthode | Route | Description |
+|---|---|---|
+| `GET` | `/` | Statut de l'API |
+| `POST` | `/predict` | Prédiction du churn |
+| `GET` | `/app` | Interface web |
+| `GET` | `/docs` | Documentation interactive |
+
+### Exemple de réponse
+
+```json
+{
+  "churn_probability": 0.87,
+  "churn_percentage": "87.0%",
+  "risk_level": "Très élevé 🔴",
+  "action": "Email personnalisé + réduction 20-30% + offrir programme fidélité"
+}
+```
+
+---
+
+## 🖥️ Interface web
+
+Interface minimaliste (style Linear/Notion) avec **dark/light mode automatique**.
+
+- Formulaire structuré en 3 sections : historique, engagement, satisfaction
+- Résultat avec niveau de risque + action recommandée
+- Accessible via : `http://localhost:8000/app`
+
+---
+
+## 🐳 Déploiement Docker
+
+```bash
+# Démarrer
+sudo docker-compose up --build
+
+# Arrêter
+sudo docker-compose down
+```
+
+---
+
 ## 📈 Résultats clés
 
-| Métrique | Score | Interprétation |
-|---|---|---|
-| ROC-AUC | **0.9934** | Excellent (1.0 = parfait, 0.5 = aléatoire) |
-| Recall | **88.2%** | 88% des churners détectés avant qu'ils partent |
-| Precision | **91.1%** | 91% des alertes envoyées sont justifiées |
-| Accuracy | **96.8%** | 97% de prédictions correctes |
+| Métrique | Score |
+|---|---|
+| ROC-AUC | **0.9934** |
+| Recall | **88.2%** |
+| Precision | **91.1%** |
+| Accuracy | **96.8%** |
 
 ---
 
@@ -150,9 +208,12 @@ Réel Churner   [       22              164      ]
 | Outil | Usage |
 |---|---|
 | Python 3.10 | Langage principal |
-| pandas | Manipulation des données |
+| pandas / numpy | Manipulation des données |
 | matplotlib / seaborn | Visualisations |
 | scikit-learn | Machine Learning |
+| FastAPI + uvicorn | API REST |
+| Docker / docker-compose | Conteneurisation |
+| HTML / CSS / JS | Interface web |
 
 ---
 
@@ -160,17 +221,25 @@ Réel Churner   [       22              164      ]
 
 ```bash
 # 1. Cloner le repo
-git clone https://github.com/sayanejr10/churn_project.git
-cd churn_project
+git clone https://github.com/sayanejr10/churn_prediction_ecommerce.git
+cd churn_prediction_ecommerce
 
-# 2. Installer les dépendances
-pip install pandas matplotlib seaborn scikit-learn
+# 2. Démarrer avec Docker
+sudo docker-compose up --build
 
-# 3. Lancer les étapes dans l'ordre
-python3 scripts/step2_data_preparation.py
-python3 scripts/step3_eda.py
-python3 scripts/step4_feature_engineering.py
-python3 scripts/step5_machine_learning.py
-python3 scripts/step6_evaluation.py
-python3 scripts/step7_business_insights.py
+# Interface web  → http://localhost:8000/app
+# API docs       → http://localhost:8000/docs
 ```
+
+### Sans Docker
+
+```bash
+pip install -r requirements.txt
+python3 -m uvicorn api.main:app --reload
+```
+
+---
+
+## 👤 Auteur
+
+**Sayane** — Junior Data Scientist
