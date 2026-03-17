@@ -1,26 +1,29 @@
 # ============================================================
-# API CHURN PREDICTION — FastAPI
+# API CHURN PREDICTION — FastAPI (version simplifiée)
 # ============================================================
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import joblib
-import numpy as np
 import pandas as pd
+import warnings
+warnings.filterwarnings('ignore')
 
 # ── Chargement du modèle ─────────────────────────────────────
 model        = joblib.load('model/churn_model.pkl')
 feature_cols = joblib.load('model/feature_cols.pkl')
 
-# ── Initialisation de l'API ───────────────────────────────────
+# ── Initialisation ────────────────────────────────────────────
 app = FastAPI(
     title="Churn Prediction API",
     description="Prédit la probabilité de churn d'un client e-commerce",
-    version="1.0.0"
+    version="2.0.0"
 )
 
 # ── CORS ─────────────────────────────────────────────────────
-from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,36 +31,41 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Schéma des données d'entrée ───────────────────────────────
+# ── Schéma simplifié — 5 champs uniquement ────────────────────
 class CustomerData(BaseModel):
-    account_age_months: int
-    avg_order_value: float
-    total_orders: int
-    days_since_last_purchase: int
-    discount_usage_rate: float
-    return_rate: float
-    customer_support_tickets: int
-    loyalty_member: int
-    browsing_frequency_per_week: float
-    cart_abandonment_rate: float
-    product_review_score_avg: float
-    engagement_score: float
-    satisfaction_score: float
-    price_sensitivity_index: float
+    days_since_last_purchase:  int
+    engagement_score:          float
+    satisfaction_score:        float
+    customer_support_tickets:  int
+    loyalty_member:            int
 
 # ── Endpoint principal ────────────────────────────────────────
 @app.post("/predict")
 def predict_churn(customer: CustomerData):
 
-    # Conversion en DataFrame
-    data = pd.DataFrame([customer.dict()])
+    # Valeurs moyennes pour les champs non saisis
+    data = pd.DataFrame([{
+        'account_age_months':          31,
+        'avg_order_value':             80.5,
+        'total_orders':                9,
+        'days_since_last_purchase':    customer.days_since_last_purchase,
+        'discount_usage_rate':         0.29,
+        'return_rate':                 0.07,
+        'customer_support_tickets':    customer.customer_support_tickets,
+        'loyalty_member':              customer.loyalty_member,
+        'browsing_frequency_per_week': 3.1,
+        'cart_abandonment_rate':       0.60,
+        'product_review_score_avg':    3.9,
+        'engagement_score':            customer.engagement_score,
+        'satisfaction_score':          customer.satisfaction_score,
+        'price_sensitivity_index':     4.5,
+    }])
 
-    # Feature Engineering (mêmes transformations qu'à l'entraînement)
+    # Feature Engineering
     bins = [0, 15, 30, 60, 999]
     data['recency_segment'] = pd.cut(
         data['days_since_last_purchase'],
         bins=bins, labels=[0,1,2,3], include_lowest=True).astype(int)
-
     data['orders_per_month'] = data['total_orders'] / (data['account_age_months'] + 1)
     data['is_inactive']      = (data['days_since_last_purchase'] > 60).astype(int)
     data['risk_score']       = (
@@ -94,16 +102,13 @@ def predict_churn(customer: CustomerData):
         "action":            action
     }
 
-# ── Endpoint de santé ─────────────────────────────────────────
-@app.get("/")
-def root():
-    return {"message": "Churn Prediction API is running ✓"}
-
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
-
+# ── Endpoints statiques ───────────────────────────────────────
 app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
 @app.get("/app")
 def serve_frontend():
     return FileResponse("frontend/index.html")
+
+@app.get("/")
+def root():
+    return {"message": "Churn Prediction API is running ✓"}
