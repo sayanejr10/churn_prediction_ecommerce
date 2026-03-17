@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" id="html-root">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -46,6 +46,42 @@
     }
   }
 
+  [data-theme="light"] {
+    --bg:        #ffffff;
+    --bg-subtle: #f7f7f5;
+    --bg-card:   #ffffff;
+    --border:    #e8e8e4;
+    --border-strong: #d4d4cf;
+    --text:      #1a1a18;
+    --text-2:    #6b6b66;
+    --text-3:    #9b9b96;
+    --accent:    #1a1a18;
+    --accent-fg: #ffffff;
+    --shadow:    0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    --red-bg:    #fef2f2; --red-border: #fecaca;
+    --orange-bg: #fff7ed; --orange-border: #fed7aa;
+    --yellow-bg: #fefce8; --yellow-border: #fef08a;
+    --green-bg:  #f0fdf4; --green-border: #bbf7d0;
+  }
+
+  [data-theme="dark"] {
+    --bg:        #111110;
+    --bg-subtle: #1a1a18;
+    --bg-card:   #161615;
+    --border:    #282826;
+    --border-strong: #3a3a37;
+    --text:      #eeeeec;
+    --text-2:    #a0a09a;
+    --text-3:    #6b6b66;
+    --accent:    #eeeeec;
+    --accent-fg: #111110;
+    --shadow:    0 1px 3px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
+    --red-bg:    #1c0a0a; --red-border: #7f1d1d;
+    --orange-bg: #1c0d00; --orange-border: #7c2d12;
+    --yellow-bg: #1a1400; --yellow-border: #713f12;
+    --green-bg:  #031a0a; --green-border: #14532d;
+  }
+
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { font-size: 14px; }
 
@@ -55,6 +91,7 @@
     color: var(--text);
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
+    transition: background 0.2s, color 0.2s;
   }
 
   /* ── NAV ── */
@@ -69,6 +106,7 @@
     justify-content: space-between;
     padding: 0 2rem;
     z-index: 100;
+    transition: background 0.2s, border-color 0.2s;
   }
 
   .nav-logo {
@@ -88,6 +126,26 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 12px;
   }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .theme-btn {
+    width: 32px; height: 32px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s;
+  }
+  .theme-btn:hover { border-color: var(--border-strong); }
 
   .nav-btn {
     padding: 0.4rem 0.9rem;
@@ -179,23 +237,6 @@
   .btn-primary:hover { opacity: 0.82; }
   .btn-primary:active { transform: scale(0.98); }
 
-  .btn-secondary {
-    padding: 0.65rem 1.2rem;
-    background: transparent;
-    color: var(--text-2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    font-family: 'Geist', sans-serif;
-    font-size: 0.88rem;
-    font-weight: 400;
-    cursor: pointer;
-    transition: border-color 0.15s, color 0.15s;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-  }
-  .btn-secondary:hover { border-color: var(--border-strong); color: var(--text); }
-
   /* ── FORM SECTION ── */
   #form-section {
     display: none;
@@ -204,6 +245,7 @@
     padding: 5rem 1.5rem 4rem;
     flex-direction: column;
     align-items: center;
+    transition: background 0.2s;
   }
 
   #form-section.visible { display: flex; }
@@ -249,6 +291,7 @@
     max-width: 480px;
     overflow: hidden;
     animation: fadeUp 0.4s ease 0.05s both;
+    transition: background 0.2s, border-color 0.2s;
   }
 
   .section-header {
@@ -285,7 +328,7 @@
     font-family: 'Geist Mono', monospace;
     font-size: 0.85rem;
     color: var(--text);
-    transition: border-color 0.15s, box-shadow 0.15s;
+    transition: border-color 0.15s, box-shadow 0.15s, background 0.2s;
     width: 100%;
     appearance: none;
     -webkit-appearance: none;
@@ -295,10 +338,6 @@
     outline: none;
     border-color: var(--border-strong);
     box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .field input:focus, .field select:focus { box-shadow: 0 0 0 3px rgba(255,255,255,0.05); }
   }
 
   .divider { height: 1px; background: var(--border); }
@@ -439,7 +478,10 @@
     <div class="nav-logo-icon">📊</div>
     Churn Intelligence
   </div>
-  <button class="nav-btn" onclick="showForm()">Analyser un client</button>
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" title="Changer le thème">🌙</button>
+    <button class="nav-btn" onclick="showForm()">Analyser un client</button>
+  </div>
 </nav>
 
 <!-- ── LANDING ── -->
@@ -551,6 +593,33 @@
 </section>
 
 <script>
+// ── Thème ─────────────────────────────────────────────────────
+function toggleTheme() {
+  const root = document.getElementById('html-root');
+  const btn  = document.getElementById('theme-btn');
+  const current = root.getAttribute('data-theme');
+  const isDark = current === 'dark' ||
+    (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+  if (isDark) {
+    root.setAttribute('data-theme', 'light');
+    btn.textContent = '🌙';
+    localStorage.setItem('theme', 'light');
+  } else {
+    root.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀️';
+    localStorage.setItem('theme', 'dark');
+  }
+}
+
+// Applique le thème sauvegardé au chargement
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  document.getElementById('html-root').setAttribute('data-theme', savedTheme);
+  document.getElementById('theme-btn').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+}
+
+// ── Navigation ────────────────────────────────────────────────
 function showForm() {
   document.getElementById('landing').style.display = 'none';
   document.getElementById('form-section').classList.add('visible');
@@ -563,6 +632,7 @@ function showLanding() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+// ── Prédiction ────────────────────────────────────────────────
 async function predict() {
   const btn = document.getElementById('btn');
   const errorDiv = document.getElementById('error');
