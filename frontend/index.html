@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Churn Prediction</title>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<title>Churn Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
     --bg:        #ffffff;
@@ -39,10 +39,10 @@
       --accent:    #eeeeec;
       --accent-fg: #111110;
       --shadow:    0 1px 3px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
-      --red-bg:    #1c0a0a; --red-border:    #7f1d1d;
+      --red-bg:    #1c0a0a; --red-border: #7f1d1d;
       --orange-bg: #1c0d00; --orange-border: #7c2d12;
       --yellow-bg: #1a1400; --yellow-border: #713f12;
-      --green-bg:  #031a0a; --green-border:  #14532d;
+      --green-bg:  #031a0a; --green-border: #14532d;
     }
   }
 
@@ -51,58 +51,194 @@
 
   body {
     font-family: 'Geist', -apple-system, sans-serif;
-    background: var(--bg-subtle);
+    background: var(--bg);
     color: var(--text);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 52px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 100;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+
+  .nav-logo-icon {
+    width: 24px; height: 24px;
+    background: var(--accent);
+    border-radius: 5px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+  }
+
+  .nav-btn {
+    padding: 0.4rem 0.9rem;
+    background: var(--accent);
+    color: var(--accent-fg);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Geist', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .nav-btn:hover { opacity: 0.8; }
+
+  /* ── LANDING ── */
+  #landing {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.5rem 1rem 4rem;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+    justify-content: center;
+    padding: 5rem 1.5rem 3rem;
+    text-align: center;
   }
 
-  header {
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--text-2);
+    margin-bottom: 1.75rem;
+    animation: fadeUp 0.5s ease both;
+  }
+
+  .badge-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: #16a34a;
+  }
+
+  h1.hero {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    color: var(--text);
+    max-width: 560px;
+    margin-bottom: 1.25rem;
+    animation: fadeUp 0.5s ease 0.05s both;
+  }
+
+  h1.hero span { color: var(--text-3); }
+
+  .hero-desc {
+    font-size: 1rem;
+    color: var(--text-2);
+    max-width: 400px;
+    line-height: 1.65;
+    margin-bottom: 2.25rem;
+    animation: fadeUp 0.5s ease 0.1s both;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+
+  .btn-primary {
+    padding: 0.65rem 1.4rem;
+    background: var(--accent);
+    color: var(--accent-fg);
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: 'Geist', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.15s, transform 0.1s;
+    letter-spacing: -0.01em;
+  }
+  .btn-primary:hover { opacity: 0.82; }
+  .btn-primary:active { transform: scale(0.98); }
+
+  .btn-secondary {
+    padding: 0.65rem 1.2rem;
+    background: transparent;
+    color: var(--text-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-family: 'Geist', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  .btn-secondary:hover { border-color: var(--border-strong); color: var(--text); }
+
+  /* ── FORM SECTION ── */
+  #form-section {
+    display: none;
+    background: var(--bg-subtle);
+    min-height: 100vh;
+    padding: 5rem 1.5rem 4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #form-section.visible { display: flex; }
+
+  .form-header {
     width: 100%;
     max-width: 480px;
     margin-bottom: 1.5rem;
     animation: fadeUp 0.4s ease both;
   }
 
-  .logo {
-    display: flex;
+  .back-btn {
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1.1rem;
-  }
-
-  .logo-icon {
-    width: 26px; height: 26px;
-    background: var(--accent);
-    border-radius: 5px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 13px;
-  }
-
-  .logo-text {
-    font-size: 0.85rem;
-    font-weight: 500;
+    gap: 0.4rem;
+    font-size: 0.78rem;
     color: var(--text-2);
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    background: none;
+    border: none;
+    font-family: 'Geist', sans-serif;
+    padding: 0;
+    transition: color 0.15s;
   }
+  .back-btn:hover { color: var(--text); }
 
-  h1 {
-    font-size: 1.6rem;
+  .form-header h2 {
+    font-size: 1.3rem;
     font-weight: 600;
-    letter-spacing: -0.035em;
-    color: var(--text);
-    line-height: 1.2;
-    margin-bottom: 0.35rem;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.3rem;
   }
 
-  .desc {
-    font-size: 0.85rem;
-    color: var(--text-2);
-  }
+  .form-header p { font-size: 0.83rem; color: var(--text-2); }
 
   .card {
     background: var(--bg-card);
@@ -123,11 +259,7 @@
     gap: 0.45rem;
   }
 
-  .section-dot {
-    width: 5px; height: 5px;
-    border-radius: 50%;
-    background: var(--text-3);
-  }
+  .section-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--text-3); }
 
   .section-title {
     font-size: 0.7rem;
@@ -137,29 +269,15 @@
     letter-spacing: 0.07em;
   }
 
-  .fields {
-    padding: 0.9rem 1.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
+  .fields { padding: 0.9rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
 
   .field { display: flex; flex-direction: column; gap: 0.25rem; }
 
-  .field label {
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--text-2);
-  }
+  .field label { font-size: 0.75rem; font-weight: 500; color: var(--text-2); }
 
-  .field .hint {
-    font-size: 0.7rem;
-    color: var(--text-3);
-    margin-top: 0.1rem;
-  }
+  .field .hint { font-size: 0.7rem; color: var(--text-3); margin-top: 0.1rem; }
 
-  .field input,
-  .field select {
+  .field input, .field select {
     background: var(--bg-subtle);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
@@ -173,18 +291,14 @@
     -webkit-appearance: none;
   }
 
-  .field input:focus,
-  .field select:focus {
+  .field input:focus, .field select:focus {
     outline: none;
     border-color: var(--border-strong);
     box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
   }
 
   @media (prefers-color-scheme: dark) {
-    .field input:focus,
-    .field select:focus {
-      box-shadow: 0 0 0 3px rgba(255,255,255,0.05);
-    }
+    .field input:focus, .field select:focus { box-shadow: 0 0 0 3px rgba(255,255,255,0.05); }
   }
 
   .divider { height: 1px; background: var(--border); }
@@ -202,7 +316,6 @@
     font-size: 0.85rem;
     font-weight: 500;
     cursor: pointer;
-    letter-spacing: -0.01em;
     transition: opacity 0.15s, transform 0.1s;
     display: flex;
     align-items: center;
@@ -223,7 +336,6 @@
     animation: spin 0.6s linear infinite;
     display: none;
   }
-
   .loading .spinner { display: block; }
   .loading .btn-text { display: none; }
 
@@ -263,18 +375,9 @@
     margin-bottom: 0.25rem;
   }
 
-  .result-risk {
-    font-size: 1.05rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    color: var(--text);
-    margin-bottom: 0.1rem;
-  }
+  .result-risk { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.02em; color: var(--text); margin-bottom: 0.1rem; }
 
-  .result-sub {
-    font-size: 0.75rem;
-    color: var(--text-2);
-  }
+  .result-sub { font-size: 0.75rem; color: var(--text-2); }
 
   .result-proba {
     font-family: 'Geist Mono', monospace;
@@ -287,25 +390,11 @@
 
   .result-divider { height: 1px; background: var(--border); opacity: 0.4; }
 
-  .result-action {
-    padding: 0.8rem 1.25rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
+  .result-action { padding: 0.8rem 1.25rem; display: flex; align-items: flex-start; gap: 0.5rem; }
 
-  .action-arrow {
-    font-size: 0.75rem;
-    color: var(--text-3);
-    margin-top: 0.15rem;
-    flex-shrink: 0;
-  }
+  .action-arrow { font-size: 0.75rem; color: var(--text-3); margin-top: 0.15rem; flex-shrink: 0; }
 
-  .action-text {
-    font-size: 0.82rem;
-    color: var(--text-2);
-    line-height: 1.5;
-  }
+  .action-text { font-size: 0.82rem; color: var(--text-2); line-height: 1.5; }
 
   .action-text strong {
     display: block;
@@ -331,19 +420,12 @@
   }
   .error-msg.show { display: block; }
 
-  footer {
-    margin-top: 1.75rem;
-    font-size: 0.7rem;
-    color: var(--text-3);
-    text-align: center;
-    animation: fadeUp 0.4s ease 0.15s both;
-  }
-
+  footer { margin-top: 1.75rem; font-size: 0.7rem; color: var(--text-3); text-align: center; }
   footer a { color: var(--text-2); text-decoration: none; }
   footer a:hover { color: var(--text); }
 
   @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(6px); }
+    from { opacity: 0; transform: translateY(8px); }
     to   { opacity: 1; transform: translateY(0); }
   }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -351,100 +433,137 @@
 </head>
 <body>
 
-<header>
-  <div class="logo">
-    <div class="logo-icon">📊</div>
-    <span class="logo-text">Churn Intelligence</span>
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-icon">📊</div>
+    Churn Intelligence
   </div>
-  <h1>Prédiction du risque<br>de départ client</h1>
-  <p class="desc">5 informations suffisent pour estimer le risque de churn d'un client.</p>
-</header>
+  <button class="nav-btn" onclick="showForm()">Analyser un client</button>
+</nav>
 
-<div class="card">
-
-  <div class="section-header">
-    <div class="section-dot"></div>
-    <span class="section-title">Profil du client</span>
-  </div>
-
-  <div class="fields">
-
-    <div class="field">
-      <label>Jours depuis le dernier achat</label>
-      <input type="number" id="days_since_last_purchase" placeholder="ex: 45" min="0"/>
-      <span class="hint">Nombre de jours écoulés depuis la dernière commande</span>
-    </div>
-
-    <div class="field">
-      <label>Score d'engagement (0 – 10)</label>
-      <input type="number" id="engagement_score" placeholder="ex: 3.5" step="0.1" min="0" max="10"/>
-      <span class="hint">Niveau d'activité global du client sur la plateforme</span>
-    </div>
-
-    <div class="field">
-      <label>Score de satisfaction (0 – 10)</label>
-      <input type="number" id="satisfaction_score" placeholder="ex: 7.0" step="0.1" min="0" max="10"/>
-      <span class="hint">Note de satisfaction générale du client</span>
-    </div>
-
-    <div class="field">
-      <label>Tickets support ouverts</label>
-      <input type="number" id="customer_support_tickets" placeholder="ex: 1" min="0"/>
-      <span class="hint">Nombre de demandes d'assistance soumises</span>
-    </div>
-
-    <div class="field">
-      <label>Membre du programme fidélité</label>
-      <select id="loyalty_member">
-        <option value="" disabled selected>Sélectionner...</option>
-        <option value="1">Oui</option>
-        <option value="0">Non</option>
-      </select>
-      <span class="hint">Le client est-il inscrit au programme de fidélité ?</span>
-    </div>
-
+<!-- ── LANDING ── -->
+<section id="landing">
+  <div class="badge">
+    <div class="badge-dot"></div>
+    Modèle Random Forest · ROC-AUC 0.99
   </div>
 
-  <div class="divider"></div>
+  <h1 class="hero">
+    Anticipez le départ<br>
+    <span>de vos clients.</span>
+  </h1>
 
-  <div class="submit-area">
-    <button id="btn" onclick="predict()">
-      <span class="btn-text">Analyser le profil</span>
-      <div class="spinner"></div>
-    </button>
+  <p class="hero-desc">
+    Renseignez le profil d'un client en 5 secondes et obtenez instantanément sa probabilité de churn — avec l'action recommandée pour le retenir.
+  </p>
+
+  <div class="hero-actions">
+    <button class="btn-primary" onclick="showForm()">Analyser un client →</button>
+    <a class="btn-secondary" href="/docs" target="_blank">API docs</a>
+  </div>
+</section>
+
+<!-- ── FORM SECTION ── -->
+<section id="form-section">
+
+  <div class="form-header">
+    <button class="back-btn" onclick="showLanding()">← Retour</button>
+    <h2>Analyser un client</h2>
+    <p>Remplissez les 5 champs ci-dessous pour estimer le risque de churn.</p>
   </div>
 
-</div>
-
-<div class="error-msg" id="error">
-  Impossible de contacter l'API — vérifiez que le service est en ligne.
-</div>
-
-<div class="result-card" id="result">
-  <div class="result-top">
-    <div class="result-left">
-      <div class="result-label">Niveau de risque</div>
-      <div class="result-risk" id="risk-text"></div>
-      <div class="result-sub">Probabilité de churn estimée</div>
+  <div class="card">
+    <div class="section-header">
+      <div class="section-dot"></div>
+      <span class="section-title">Profil du client</span>
     </div>
-    <div class="result-proba" id="proba-text"></div>
-  </div>
-  <div class="result-divider"></div>
-  <div class="result-action">
-    <span class="action-arrow">→</span>
-    <div class="action-text">
-      <strong>Action recommandée</strong>
-      <span id="action-text"></span>
+
+    <div class="fields">
+      <div class="field">
+        <label>Jours depuis le dernier achat</label>
+        <input type="number" id="days_since_last_purchase" placeholder="ex: 45" min="0"/>
+        <span class="hint">Nombre de jours écoulés depuis la dernière commande</span>
+      </div>
+      <div class="field">
+        <label>Score d'engagement (0 – 10)</label>
+        <input type="number" id="engagement_score" placeholder="ex: 3.5" step="0.1" min="0" max="10"/>
+        <span class="hint">Niveau d'activité global du client sur la plateforme</span>
+      </div>
+      <div class="field">
+        <label>Score de satisfaction (0 – 10)</label>
+        <input type="number" id="satisfaction_score" placeholder="ex: 7.0" step="0.1" min="0" max="10"/>
+        <span class="hint">Note de satisfaction générale du client</span>
+      </div>
+      <div class="field">
+        <label>Tickets support ouverts</label>
+        <input type="number" id="customer_support_tickets" placeholder="ex: 1" min="0"/>
+        <span class="hint">Nombre de demandes d'assistance soumises</span>
+      </div>
+      <div class="field">
+        <label>Membre du programme fidélité</label>
+        <select id="loyalty_member">
+          <option value="" disabled selected>Sélectionner...</option>
+          <option value="1">Oui</option>
+          <option value="0">Non</option>
+        </select>
+        <span class="hint">Le client est-il inscrit au programme de fidélité ?</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="submit-area">
+      <button id="btn" onclick="predict()">
+        <span class="btn-text">Analyser le profil</span>
+        <div class="spinner"></div>
+      </button>
     </div>
   </div>
-</div>
 
-<footer>
-  Modèle Random Forest · ROC-AUC 0.99 · Recall 88% ·
-  <a href="/docs" target="_blank">API docs</a>
-</footer>
+  <div class="error-msg" id="error">
+    Impossible de contacter l'API — vérifiez que le service est en ligne.
+  </div>
+
+  <div class="result-card" id="result">
+    <div class="result-top">
+      <div class="result-left">
+        <div class="result-label">Niveau de risque</div>
+        <div class="result-risk" id="risk-text"></div>
+        <div class="result-sub">Probabilité de churn estimée</div>
+      </div>
+      <div class="result-proba" id="proba-text"></div>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-action">
+      <span class="action-arrow">→</span>
+      <div class="action-text">
+        <strong>Action recommandée</strong>
+        <span id="action-text"></span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Modèle Random Forest · ROC-AUC 0.99 · Recall 88% ·
+    <a href="/docs" target="_blank">API docs</a>
+  </footer>
+
+</section>
 
 <script>
+function showForm() {
+  document.getElementById('landing').style.display = 'none';
+  document.getElementById('form-section').classList.add('visible');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showLanding() {
+  document.getElementById('form-section').classList.remove('visible');
+  document.getElementById('landing').style.display = 'flex';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 async function predict() {
   const btn = document.getElementById('btn');
   const errorDiv = document.getElementById('error');
@@ -456,11 +575,11 @@ async function predict() {
   resultDiv.className = 'result-card';
 
   const payload = {
-    days_since_last_purchase:   parseInt(document.getElementById('days_since_last_purchase').value),
-    engagement_score:           parseFloat(document.getElementById('engagement_score').value),
-    satisfaction_score:         parseFloat(document.getElementById('satisfaction_score').value),
-    customer_support_tickets:   parseInt(document.getElementById('customer_support_tickets').value),
-    loyalty_member:             parseInt(document.getElementById('loyalty_member').value),
+    days_since_last_purchase:  parseInt(document.getElementById('days_since_last_purchase').value),
+    engagement_score:          parseFloat(document.getElementById('engagement_score').value),
+    satisfaction_score:        parseFloat(document.getElementById('satisfaction_score').value),
+    customer_support_tickets:  parseInt(document.getElementById('customer_support_tickets').value),
+    loyalty_member:            parseInt(document.getElementById('loyalty_member').value),
   };
 
   try {
