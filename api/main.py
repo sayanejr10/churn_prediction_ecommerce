@@ -1,6 +1,4 @@
-# ============================================================
-# API CHURN PREDICTION — FastAPI (version simplifiée)
-# ============================================================
+# API CHURN PREDICTION — FastAPI 
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,18 +10,18 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-# ── Chargement du modèle ─────────────────────────────────────
+# Chargement du modèle
 model        = joblib.load('model/churn_model.pkl')
 feature_cols = joblib.load('model/feature_cols.pkl')
 
-# ── Initialisation ────────────────────────────────────────────
+# Initialisation
 app = FastAPI(
     title="Churn Prediction API",
     description="Prédit la probabilité de churn d'un client e-commerce",
     version="2.0.0"
 )
 
-# ── CORS ─────────────────────────────────────────────────────
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -31,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Schéma simplifié — 5 champs uniquement ────────────────────
+# Schéma simplifié — 5 champs uniquement
 class CustomerData(BaseModel):
     days_since_last_purchase:  int
     engagement_score:          float
@@ -39,7 +37,7 @@ class CustomerData(BaseModel):
     customer_support_tickets:  int
     loyalty_member:            int
 
-# ── Endpoint principal ────────────────────────────────────────
+# Endpoint principal
 @app.post("/predict")
 def predict_churn(customer: CustomerData):
 
@@ -102,7 +100,7 @@ def predict_churn(customer: CustomerData):
         "action":            action
     }
 
-# ── Endpoints statiques ───────────────────────────────────────
+# Endpoints statiques
 app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
 @app.get("/app")
@@ -111,4 +109,4 @@ def serve_frontend():
 
 @app.get("/")
 def root():
-    return {"message": "Churn Prediction API is running ✓"}
+    return FileResponse("frontend/index.html")
