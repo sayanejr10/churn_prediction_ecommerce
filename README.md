@@ -269,6 +269,3 @@ python3 -m uvicorn api.main:app --reload
 
 ---
 
-## 👤 Auteur
-
-**Sayane** — Junior Data Scientist
