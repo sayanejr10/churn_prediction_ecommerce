@@ -24,6 +24,7 @@
     --orange: #ea580c; --orange-bg: #fff7ed; --orange-border: #fed7aa;
     --yellow: #ca8a04; --yellow-bg: #fefce8; --yellow-border: #fef08a;
     --green:  #16a34a; --green-bg:  #f0fdf4; --green-border:  #bbf7d0;
+    --max-w: 960px;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -47,47 +48,35 @@
   }
 
   [data-theme="light"] {
-    --bg:        #ffffff;
-    --bg-subtle: #f7f7f5;
-    --bg-card:   #ffffff;
-    --border:    #e8e8e4;
-    --border-strong: #d4d4cf;
-    --text:      #1a1a18;
-    --text-2:    #6b6b66;
-    --text-3:    #9b9b96;
-    --accent:    #1a1a18;
-    --accent-fg: #ffffff;
-    --shadow:    0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
-    --red-bg:    #fef2f2; --red-border: #fecaca;
+    --bg: #ffffff; --bg-subtle: #f7f7f5; --bg-card: #ffffff;
+    --border: #e8e8e4; --border-strong: #d4d4cf;
+    --text: #1a1a18; --text-2: #6b6b66; --text-3: #9b9b96;
+    --accent: #1a1a18; --accent-fg: #ffffff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    --red-bg: #fef2f2; --red-border: #fecaca;
     --orange-bg: #fff7ed; --orange-border: #fed7aa;
     --yellow-bg: #fefce8; --yellow-border: #fef08a;
-    --green-bg:  #f0fdf4; --green-border: #bbf7d0;
+    --green-bg: #f0fdf4; --green-border: #bbf7d0;
   }
 
   [data-theme="dark"] {
-    --bg:        #111110;
-    --bg-subtle: #1a1a18;
-    --bg-card:   #161615;
-    --border:    #282826;
-    --border-strong: #3a3a37;
-    --text:      #eeeeec;
-    --text-2:    #a0a09a;
-    --text-3:    #6b6b66;
-    --accent:    #eeeeec;
-    --accent-fg: #111110;
-    --shadow:    0 1px 3px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
-    --red-bg:    #1c0a0a; --red-border: #7f1d1d;
+    --bg: #111110; --bg-subtle: #1a1a18; --bg-card: #161615;
+    --border: #282826; --border-strong: #3a3a37;
+    --text: #eeeeec; --text-2: #a0a09a; --text-3: #6b6b66;
+    --accent: #eeeeec; --accent-fg: #111110;
+    --shadow: 0 1px 3px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.2);
+    --red-bg: #1c0a0a; --red-border: #7f1d1d;
     --orange-bg: #1c0d00; --orange-border: #7c2d12;
     --yellow-bg: #1a1400; --yellow-border: #713f12;
-    --green-bg:  #031a0a; --green-border: #14532d;
+    --green-bg: #031a0a; --green-border: #14532d;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 14px; }
 
-@media (min-width: 768px) {
-  html { font-size: 20px; }
-}
+  html { font-size: 14px; }
+  @media (min-width: 768px) { html { font-size: 15px; } }
+  @media (min-width: 1200px) { html { font-size: 16px; } }
+
   body {
     font-family: 'Geist', -apple-system, sans-serif;
     background: var(--bg);
@@ -107,9 +96,13 @@ html { font-size: 14px; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     z-index: 100;
     transition: background 0.2s, border-color 0.2s;
+  }
+
+  @media (min-width: 768px) {
+    nav { padding: 0 2.5rem; }
   }
 
   .nav-logo {
@@ -120,6 +113,7 @@ html { font-size: 14px; }
     font-weight: 600;
     color: var(--text);
     letter-spacing: -0.02em;
+    cursor: pointer;
   }
 
   .nav-logo-icon {
@@ -130,11 +124,7 @@ html { font-size: 14px; }
     font-size: 12px;
   }
 
-  .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+  .nav-right { display: flex; align-items: center; gap: 0.5rem; }
 
   .theme-btn {
     width: 32px; height: 32px;
@@ -143,9 +133,7 @@ html { font-size: 14px; }
     border-radius: var(--radius-sm);
     cursor: pointer;
     font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     transition: border-color 0.15s;
   }
   .theme-btn:hover { border-color: var(--border-strong); }
@@ -189,19 +177,15 @@ html { font-size: 14px; }
     animation: fadeUp 0.5s ease both;
   }
 
-  .badge-dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: #16a34a;
-  }
+  .badge-dot { width: 6px; height: 6px; border-radius: 50%; background: #16a34a; }
 
   h1.hero {
-    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
     letter-spacing: -0.04em;
     line-height: 1.1;
     color: var(--text);
-    max-width: 560px;
+    max-width: 600px;
     margin-bottom: 1.25rem;
     animation: fadeUp 0.5s ease 0.05s both;
   }
@@ -211,7 +195,7 @@ html { font-size: 14px; }
   .hero-desc {
     font-size: 1rem;
     color: var(--text-2);
-    max-width: 400px;
+    max-width: 420px;
     line-height: 1.65;
     margin-bottom: 2.25rem;
     animation: fadeUp 0.5s ease 0.1s both;
@@ -225,13 +209,13 @@ html { font-size: 14px; }
   }
 
   .btn-primary {
-    padding: 0.65rem 1.4rem;
+    padding: 0.7rem 1.5rem;
     background: var(--accent);
     color: var(--accent-fg);
     border: none;
     border-radius: var(--radius-sm);
     font-family: 'Geist', sans-serif;
-    font-size: 0.88rem;
+    font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
     transition: opacity 0.15s, transform 0.1s;
@@ -245,19 +229,33 @@ html { font-size: 14px; }
     display: none;
     background: var(--bg-subtle);
     min-height: 100vh;
-    padding: 5rem 1.5rem 4rem;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 52px;
     transition: background 0.2s;
   }
 
-  #form-section.visible { display: flex; }
+  #form-section.visible { display: block; }
 
-  .form-header {
-    width: 100%;
-    max-width: 640px;
-    margin-bottom: 1.5rem;
-    animation: fadeUp 0.4s ease both;
+  /* Layout PC : sidebar gauche + contenu à droite */
+  .form-layout {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  @media (min-width: 768px) {
+    .form-layout {
+      padding: 2.5rem 2.5rem 4rem;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      grid-template-rows: auto auto;
+      gap: 0 2.5rem;
+    }
+  }
+
+  /* Colonne gauche — back btn + titre */
+  .form-sidebar {
+    grid-column: 1;
+    grid-row: 1 / 3;
   }
 
   .back-btn {
@@ -267,23 +265,68 @@ html { font-size: 14px; }
     font-size: 0.78rem;
     color: var(--text-2);
     cursor: pointer;
-    margin-bottom: 1.25rem;
     background: none;
     border: none;
     font-family: 'Geist', sans-serif;
     padding: 0;
     transition: color 0.15s;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
   }
   .back-btn:hover { color: var(--text); }
 
-  .form-header h2 {
-    font-size: 1.3rem;
+  .form-title-block { display: none; }
+
+  @media (min-width: 768px) {
+    .form-title-block {
+      display: block;
+      position: sticky;
+      top: 72px;
+    }
+
+    .form-title-block h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+
+    .form-title-block p {
+      font-size: 0.82rem;
+      color: var(--text-2);
+      line-height: 1.6;
+    }
+  }
+
+  /* Titre mobile uniquement */
+  .form-title-mobile {
+    margin-bottom: 1.25rem;
+  }
+
+  .form-title-mobile h2 {
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: -0.03em;
     margin-bottom: 0.3rem;
   }
 
-  .form-header p { font-size: 0.83rem; color: var(--text-2); }
+  .form-title-mobile p { font-size: 0.82rem; color: var(--text-2); }
+
+  @media (min-width: 768px) {
+    .form-title-mobile { display: none; }
+  }
+
+  /* Colonne droite — card + résultat */
+  .form-main {
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+
+  @media (max-width: 767px) {
+    .form-sidebar { margin-bottom: 0; }
+    .form-main { margin-top: 0; }
+  }
 
   .card {
     background: var(--bg-card);
@@ -291,9 +334,8 @@ html { font-size: 14px; }
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     width: 100%;
-    max-width: 640px;
     overflow: hidden;
-    animation: fadeUp 0.4s ease 0.05s both;
+    animation: fadeUp 0.4s ease both;
     transition: background 0.2s, border-color 0.2s;
   }
 
@@ -315,7 +357,17 @@ html { font-size: 14px; }
     letter-spacing: 0.07em;
   }
 
-  .fields { padding: 0.9rem 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .fields {
+    padding: 1rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  @media (min-width: 768px) {
+    .fields { grid-template-columns: 1fr 1fr; }
+    .field:last-child { grid-column: 1 / -1; }
+  }
 
   .field { display: flex; flex-direction: column; gap: 0.25rem; }
 
@@ -327,7 +379,7 @@ html { font-size: 14px; }
     background: var(--bg-subtle);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    padding: 0.5rem 0.7rem;
+    padding: 0.55rem 0.7rem;
     font-family: 'Geist Mono', monospace;
     font-size: 0.85rem;
     color: var(--text);
@@ -343,19 +395,24 @@ html { font-size: 14px; }
     box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
   }
 
+  [data-theme="dark"] .field input:focus,
+  [data-theme="dark"] .field select:focus {
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.05);
+  }
+
   .divider { height: 1px; background: var(--border); }
 
-  .submit-area { padding: 0.9rem 1.25rem; }
+  .submit-area { padding: 1rem 1.25rem; }
 
   button#btn {
     width: 100%;
-    padding: 0.65rem 1rem;
+    padding: 0.7rem 1rem;
     background: var(--accent);
     color: var(--accent-fg);
     border: none;
     border-radius: var(--radius-sm);
     font-family: 'Geist', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     font-weight: 500;
     cursor: pointer;
     transition: opacity 0.15s, transform 0.1s;
@@ -363,7 +420,7 @@ html { font-size: 14px; }
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-    height: 38px;
+    height: 40px;
   }
 
   button#btn:hover { opacity: 0.82; }
@@ -389,7 +446,6 @@ html { font-size: 14px; }
     display: none;
     animation: fadeUp 0.25s ease both;
     width: 100%;
-    max-width: 640px;
   }
 
   .result-card.show { display: block; }
@@ -417,13 +473,13 @@ html { font-size: 14px; }
     margin-bottom: 0.25rem;
   }
 
-  .result-risk { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.02em; color: var(--text); margin-bottom: 0.1rem; }
+  .result-risk { font-size: 1.1rem; font-weight: 600; letter-spacing: -0.02em; color: var(--text); margin-bottom: 0.1rem; }
 
   .result-sub { font-size: 0.75rem; color: var(--text-2); }
 
   .result-proba {
     font-family: 'Geist Mono', monospace;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     letter-spacing: -0.04em;
     color: var(--text);
@@ -432,7 +488,7 @@ html { font-size: 14px; }
 
   .result-divider { height: 1px; background: var(--border); opacity: 0.4; }
 
-  .result-action { padding: 0.8rem 1.25rem; display: flex; align-items: flex-start; gap: 0.5rem; }
+  .result-action { padding: 0.9rem 1.25rem; display: flex; align-items: flex-start; gap: 0.5rem; }
 
   .action-arrow { font-size: 0.75rem; color: var(--text-3); margin-top: 0.15rem; flex-shrink: 0; }
 
@@ -458,11 +514,15 @@ html { font-size: 14px; }
     color: var(--red);
     display: none;
     width: 100%;
-    max-width: 640px;
   }
   .error-msg.show { display: block; }
 
-  footer { margin-top: 1.75rem; font-size: 0.7rem; color: var(--text-3); text-align: center; }
+  footer {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: var(--text-3);
+    text-align: center;
+  }
   footer a { color: var(--text-2); text-decoration: none; }
   footer a:hover { color: var(--text); }
 
@@ -471,25 +531,13 @@ html { font-size: 14px; }
     to   { opacity: 1; transform: translateY(0); }
   }
   @keyframes spin { to { transform: rotate(360deg); } }
-
-  @media (min-width: 768px) {
-  .fields {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-  }
-  
-  .field:last-child {
-    grid-column: 1 / -1;
-  }
-}
 </style>
 </head>
 <body>
 
 <!-- ── NAV ── -->
 <nav>
-  <div class="nav-logo">
+  <div class="nav-logo" onclick="showLanding()">
     <div class="nav-logo-icon">📊</div>
     Churn Intelligence
   </div>
@@ -505,16 +553,13 @@ html { font-size: 14px; }
     <div class="badge-dot"></div>
     Modèle Random Forest · ROC-AUC 0.99
   </div>
-
   <h1 class="hero">
     Anticipez le départ<br>
     <span>de vos clients.</span>
   </h1>
-
   <p class="hero-desc">
     Renseignez le profil d'un client en 5 secondes et obtenez instantanément sa probabilité de churn — avec l'action recommandée pour le retenir.
   </p>
-
   <div class="hero-actions">
     <button class="btn-primary" onclick="showForm()">Analyser un client →</button>
   </div>
@@ -522,100 +567,112 @@ html { font-size: 14px; }
 
 <!-- ── FORM SECTION ── -->
 <section id="form-section">
+  <div class="form-layout">
 
-  <div class="form-header">
-    <button class="back-btn" onclick="showLanding()">← Retour</button>
-    <h2>Analyser un client</h2>
-    <p>Remplissez les 5 champs ci-dessous pour estimer le risque de churn.</p>
+    <!-- Colonne gauche (PC) -->
+    <div class="form-sidebar">
+      <button class="back-btn" onclick="showLanding()">← Retour</button>
+      <div class="form-title-block">
+        <h2>Analyser<br>un client</h2>
+        <p>Remplissez les 5 champs pour estimer le risque de churn.</p>
+      </div>
+    </div>
+
+    <!-- Titre mobile uniquement -->
+    <div class="form-title-mobile">
+      <h2>Analyser un client</h2>
+      <p>Remplissez les 5 champs ci-dessous pour estimer le risque de churn.</p>
+    </div>
+
+    <!-- Colonne droite (PC) / plein largeur (mobile) -->
+    <div class="form-main">
+      <div class="card">
+        <div class="section-header">
+          <div class="section-dot"></div>
+          <span class="section-title">Profil du client</span>
+        </div>
+
+        <div class="fields">
+          <div class="field">
+            <label>Jours depuis le dernier achat</label>
+            <input type="number" id="days_since_last_purchase" placeholder="ex: 45" min="0"/>
+            <span class="hint">Jours écoulés depuis la dernière commande</span>
+          </div>
+          <div class="field">
+            <label>Score d'engagement (0 – 10)</label>
+            <input type="number" id="engagement_score" placeholder="ex: 3.5" step="0.1" min="0" max="10"/>
+            <span class="hint">Niveau d'activité global sur la plateforme</span>
+          </div>
+          <div class="field">
+            <label>Score de satisfaction (0 – 10)</label>
+            <input type="number" id="satisfaction_score" placeholder="ex: 7.0" step="0.1" min="0" max="10"/>
+            <span class="hint">Note de satisfaction générale</span>
+          </div>
+          <div class="field">
+            <label>Tickets support ouverts</label>
+            <input type="number" id="customer_support_tickets" placeholder="ex: 1" min="0"/>
+            <span class="hint">Nombre de demandes d'assistance soumises</span>
+          </div>
+          <div class="field">
+            <label>Membre du programme fidélité</label>
+            <select id="loyalty_member">
+              <option value="" disabled selected>Sélectionner...</option>
+              <option value="1">Oui</option>
+              <option value="0">Non</option>
+            </select>
+            <span class="hint">Inscrit au programme de fidélité ?</span>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="submit-area">
+          <button id="btn" onclick="predict()">
+            <span class="btn-text">Analyser le profil</span>
+            <div class="spinner"></div>
+          </button>
+        </div>
+      </div>
+
+      <div class="error-msg" id="error">
+        Impossible de contacter l'API — vérifiez que le service est en ligne.
+      </div>
+
+      <div class="result-card" id="result">
+        <div class="result-top">
+          <div class="result-left">
+            <div class="result-label">Niveau de risque</div>
+            <div class="result-risk" id="risk-text"></div>
+            <div class="result-sub">Probabilité de churn estimée</div>
+          </div>
+          <div class="result-proba" id="proba-text"></div>
+        </div>
+        <div class="result-divider"></div>
+        <div class="result-action">
+          <span class="action-arrow">→</span>
+          <div class="action-text">
+            <strong>Action recommandée</strong>
+            <span id="action-text"></span>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        Modèle Random Forest · ROC-AUC 0.99 · Recall 88% ·
+        <a href="/docs" target="_blank">API docs</a>
+      </footer>
+    </div>
+
   </div>
-
-  <div class="card">
-    <div class="section-header">
-      <div class="section-dot"></div>
-      <span class="section-title">Profil du client</span>
-    </div>
-
-    <div class="fields">
-      <div class="field">
-        <label>Jours depuis le dernier achat</label>
-        <input type="number" id="days_since_last_purchase" placeholder="ex: 45" min="0"/>
-        <span class="hint">Nombre de jours écoulés depuis la dernière commande</span>
-      </div>
-      <div class="field">
-        <label>Score d'engagement (0 – 10)</label>
-        <input type="number" id="engagement_score" placeholder="ex: 3.5" step="0.1" min="0" max="10"/>
-        <span class="hint">Niveau d'activité global du client sur la plateforme</span>
-      </div>
-      <div class="field">
-        <label>Score de satisfaction (0 – 10)</label>
-        <input type="number" id="satisfaction_score" placeholder="ex: 7.0" step="0.1" min="0" max="10"/>
-        <span class="hint">Note de satisfaction générale du client</span>
-      </div>
-      <div class="field">
-        <label>Tickets support ouverts</label>
-        <input type="number" id="customer_support_tickets" placeholder="ex: 1" min="0"/>
-        <span class="hint">Nombre de demandes d'assistance soumises</span>
-      </div>
-      <div class="field">
-        <label>Membre du programme fidélité</label>
-        <select id="loyalty_member">
-          <option value="" disabled selected>Sélectionner...</option>
-          <option value="1">Oui</option>
-          <option value="0">Non</option>
-        </select>
-        <span class="hint">Le client est-il inscrit au programme de fidélité ?</span>
-      </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="submit-area">
-      <button id="btn" onclick="predict()">
-        <span class="btn-text">Analyser le profil</span>
-        <div class="spinner"></div>
-      </button>
-    </div>
-  </div>
-
-  <div class="error-msg" id="error">
-    Impossible de contacter l'API — vérifiez que le service est en ligne.
-  </div>
-
-  <div class="result-card" id="result">
-    <div class="result-top">
-      <div class="result-left">
-        <div class="result-label">Niveau de risque</div>
-        <div class="result-risk" id="risk-text"></div>
-        <div class="result-sub">Probabilité de churn estimée</div>
-      </div>
-      <div class="result-proba" id="proba-text"></div>
-    </div>
-    <div class="result-divider"></div>
-    <div class="result-action">
-      <span class="action-arrow">→</span>
-      <div class="action-text">
-        <strong>Action recommandée</strong>
-        <span id="action-text"></span>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    Modèle Random Forest · ROC-AUC 0.99 · Recall 88% ·
-    <a href="/docs" target="_blank">API docs</a>
-  </footer>
-
 </section>
 
 <script>
-// ── Thème ─────────────────────────────────────────────────────
 function toggleTheme() {
   const root = document.getElementById('html-root');
   const btn  = document.getElementById('theme-btn');
   const current = root.getAttribute('data-theme');
   const isDark = current === 'dark' ||
     (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
-
   if (isDark) {
     root.setAttribute('data-theme', 'light');
     btn.textContent = '🌙';
@@ -627,14 +684,12 @@ function toggleTheme() {
   }
 }
 
-// Applique le thème sauvegardé au chargement
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
   document.getElementById('html-root').setAttribute('data-theme', savedTheme);
   document.getElementById('theme-btn').textContent = savedTheme === 'dark' ? '☀️' : '🌙';
 }
 
-// ── Navigation ────────────────────────────────────────────────
 function showForm() {
   document.getElementById('landing').style.display = 'none';
   document.getElementById('form-section').classList.add('visible');
@@ -647,7 +702,6 @@ function showLanding() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ── Prédiction ────────────────────────────────────────────────
 async function predict() {
   const btn = document.getElementById('btn');
   const errorDiv = document.getElementById('error');
@@ -673,15 +727,12 @@ async function predict() {
       body: JSON.stringify(payload)
     });
     const data = await res.json();
-
     document.getElementById('risk-text').textContent   = data.risk_level;
     document.getElementById('proba-text').textContent  = data.churn_percentage;
     document.getElementById('action-text').textContent = data.action;
-
     const p = data.churn_probability;
     const color = p >= 0.8 ? 'red' : p >= 0.5 ? 'orange' : p >= 0.2 ? 'yellow' : 'green';
     resultDiv.classList.add('show', color);
-
   } catch(e) {
     errorDiv.classList.add('show');
   }
